@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Gradient Navbar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-border {
+            border: 2px solid transparent;
+            background: linear-gradient(black, black) padding-box, linear-gradient(to right, #8A2BE2, #00FFFF) border-box;
+            transition: background 0.3s ease;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #8A2BE2, #00FFFF);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-black flex items-center justify-center h-screen">
+
+    <nav id="navbar" class="gradient-border rounded-full px-6 py-2">
+        <ul class="flex space-x-8 text-lg font-bold text-white">
+            <li><a href="#" class="gradient-text" onclick="changeGradient(this)">Home</a></li>
+            <li><a href="#" class="hover:text-purple-500" onclick="changeGradient(this)">About</a></li>
+            <li><a href="#" class="hover:text-purple-500" onclick="changeGradient(this)">How It Works</a></li>
+            <li><a href="#" class="hover:text-purple-500" onclick="changeGradient(this)">Services</a></li>
+            <li><a href="#" class="hover:text-purple-500" onclick="changeGradient(this)">Contact</a></li>
+        </ul>
+         
+    </nav>
+
+    <script>
+        // JavaScript function to change the gradient dynamically
+        function changeGradient(element) {
+            const navbar = document.getElementById('navbar');
+
+            // Define different gradients based on the selected link text
+            let gradient;
+            switch (element.textContent.trim()) {
+                case 'Home':
+                    gradient = 'linear-gradient(to right, #8A2BE2, #00FFFF)';
+                    break;
+                case 'About':
+                    gradient = 'linear-gradient(to right, #FF5733, #FFC300)';
+                    break;
+                case 'How It Works':
+                    gradient = 'linear-gradient(to right, #28A745, #218838)';
+                    break;
+                case 'Services':
+                    gradient = 'linear-gradient(to right, #007BFF, #0056b3)';
+                    break;
+                case 'Contact':
+                    gradient = 'linear-gradient(to right, #6F42C1, #5A3791)';
+                    break;
+                default:
+                    gradient = 'linear-gradient(to right, #8A2BE2, #00FFFF)'; // Default gradient
+            }
+
+            // Update the navbar's background gradient
+            navbar.style.background = `linear-gradient(black, black) padding-box, ${gradient} border-box`;
+
+            // Update the active link styling (optional)
+            document.querySelectorAll('a').forEach(link => {
+                link.classList.remove('gradient-text');
+                link.classList.add('hover:text-purple-500');
+            });
+            element.classList.add('gradient-text');
+        }
+    </script>
+
+</body>
+</html>
