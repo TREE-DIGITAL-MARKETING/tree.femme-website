@@ -29,7 +29,7 @@ const About = () => {
   </a>
 </div>
   
-  <h1 className="text-[50px] sm:text-[50px] md:text-[50px] font-[500] leading-[40px] sm:leading-[50px] md:leading-[63.15px] text-white font-futuraLight mt-20">
+  <h1 className="text-[50px] sm:text-[50px] md:text-[50px] font-[500] leading-[40px] sm:leading-[50px] md:leading-[63.15px] text-white font-futuraLight mt-24">
     Hello there!
     <br />
     <span
