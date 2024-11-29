@@ -259,28 +259,34 @@ return (<>
               borderImageSlice: 1
            }}>
   </div>
-  <div className="container mx-auto text-center">
-    <h2 className="font-futuraBold text-[56px] leading-[73.02px] font-[700] mb-8">what we do</h2>
-    <p className="text-[20px] mb-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
-      Save hundreds of hours by just collaborating with us. 
-      <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">
-        Sounds bizarre?
-      </span>
-    </p>
-    <p className="text-[20px] -mt-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
-      In a world where technology has a say in everything we do, let's kickstart any 
-      <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">digital marketing project </span> 
-      with utmost easiness. As a women-led team, we always keep looking for new challenges digitally (Because we are confident to get things done!).
-    </p>
-    <p className="text-[20px] -mt-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
-      You give us problems,
-      <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
-        we give you solutions
-      </span>. 
-      We are here to ensure your brand's consistency and will help you attract your 
-      <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">ideal prospects</span>.
-    </p>
-
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  <h2 className="font-futuraBold text-3xl sm:text-4xl md:text-5xl lg:text-[56px] leading-snug md:leading-[73.02px] font-bold mb-4 md:mb-6">
+    what we do
+  </h2>
+  <p className="text-base sm:text-lg md:text-xl lg:text-[20px] mb-3 sm:mb-4 font-MontserratRegular font-medium leading-relaxed md:leading-[39.38px] tracking-wide">
+    Save hundreds of hours by just collaborating with us. 
+    <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent">
+      Sounds bizarre?
+    </span>
+  </p>
+  <p className="text-base sm:text-lg md:text-xl lg:text-[20px] -mt-1 md:-mt-2 font-MontserratRegular font-medium leading-relaxed md:leading-[39.38px] tracking-wide">
+    In a world where technology has a say in everything we do, let's kickstart any 
+    <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent">
+      digital marketing project
+    </span> 
+    with utmost easiness. As a women-led team, we always keep looking for new challenges digitally 
+    (Because we are confident to get things done!).
+  </p>
+  <p className="text-base sm:text-lg md:text-xl lg:text-[20px] -mt-1 md:-mt-2 font-MontserratRegular font-medium leading-relaxed md:leading-[39.38px] tracking-wide">
+    You give us problems,
+    <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent">
+      we give you solutions
+    </span>. 
+    We are here to ensure your brand's consistency and will help you attract your 
+    <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent">
+      ideal prospects
+    </span>.
+  </p>
     {/* .............. Diamond session .............. */}
     <div className="flex justify-center items-center gap-4 md:gap-6 lg:gap-8 mt-8 flex-wrap">
       {["Inclusive", "Dynamic", "Tech Savvy", "Curious", "Creative"].map((text) => (
@@ -492,14 +498,14 @@ return (<>
   </section>
 
   {/*last section */}
-  <div className="relative text-white h-screen w-full flex items-center justify-center -mt-28 ">
+  <div className="relative text-white h-screen w-full flex items-center justify-center -mt-28">
   {/* Background effect */}
   <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-start items-center z-0 max-w-[85%] mx-auto">
     <div className="relative z-10">
       <img
         src=".\image\last 3.gif"
         alt="last session img"
-        className="w-[400px] md:w-[500px] h-[250px] md:h-[300px]"
+        className="w-[300px] sm:w-[350px] md:w-[500px] h-[200px] sm:h-[250px] md:h-[300px]"
         style={{
           border: 'none',
           boxShadow: 'none',
@@ -508,11 +514,11 @@ return (<>
           WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
         }}
       />
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-2 lg:px-4">
-        <h1 className="text-[26px] md:text-[36px] lg:text-[40px] font-[700] leading-tight md:leading-[48px] lg:leading-[52.16px] font-futuraBold">
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:px-6">
+        <h1 className="text-[22px] sm:text-[26px] md:text-[36px] lg:text-[40px] font-[700] leading-tight sm:leading-[32px] md:leading-[48px] lg:leading-[52.16px] font-futuraBold">
           DISCUSS A PROJECT
         </h1>
-        <p className="font-futuraLightFont text-[16px] md:text-[22px] lg:text-[26px] leading-snug md:leading-[30px] lg:leading-[33.62px]">
+        <p className="font-futuraLightFont text-[14px] sm:text-[16px] md:text-[22px] lg:text-[26px] leading-snug sm:leading-[20px] md:leading-[30px] lg:leading-[33.62px]">
           We know how to mold your project
           <br />
           Let's put the words into action
@@ -522,14 +528,15 @@ return (<>
   </div>
 
   {/* Content */}
-  <div className="absolute bottom-48 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-2 lg:px-0">
+  <div className="absolute bottom-32 sm:bottom-36 md:bottom-48 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-4 lg:px-0">
     <a href="/howitworks">
-      <button className="py-3 px-5 w-[200px] md:w-[250px] lg:w-[290px] h-[45px] md:h-[55px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[16px] md:text-[18px] lg:text-[20px] font-[700] leading-[14px]">
+      <button className="py-3 px-5 w-[180px] sm:w-[200px] md:w-[250px] lg:w-[290px] h-[40px] sm:h-[45px] md:h-[55px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-[700] leading-[14px]">
         GET CONSULTATION
       </button>
     </a>
   </div>
 </div>
+
 
 </>
 )
