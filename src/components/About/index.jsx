@@ -10,44 +10,47 @@ const About = () => {
  
   {/* Hero Section */}
   <section
-  className="relative flex flex-col items-center justify-center text-center py-5 sm:py-10 md:py-20 overflow-hidden"
-  style={{ width: "100%", maxWidth: "1440px", height: "auto" }}>
-  <div
-  className="relative z-10 flex flex-col items-center px-4 sm:px-8 mt-[-10px] sm:-mt-10 bg-cover bg-center w-full h-screen"
-  style={{
-    backgroundImage: 'url(./image/Aboutbg.png)', 
-  }}
+  className="relative flex flex-col items-center justify-center text-center py-5 sm:py-10 md:py-20 overflow-hidden w-full max-w-[1440px]"
 >
-  {/* WhatsApp Floating Icon */}
-  <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[60px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] -mr-5 z-10">
-  <a href="https://wa.me/9074429360">
-    <img
-      src="image/whatsapplogo.png"
-      alt="whatsapplogo"
-      className="w-[30px] h-[30px] sm:w-[35px] sm:h-[35px] md:w-[40px] md:h-[40px] lg:w-[45px] lg:h-[45px] xl:w-[50px] xl:h-[50px] -mt-14"
-    />
-  </a>
-</div>
-  
-  <h1 className="text-[50px] sm:text-[50px] md:text-[50px] font-[500] leading-[40px] sm:leading-[50px] md:leading-[63.15px] text-white font-futuraLight mt-24">
-    Hello there!
-    <br />
-    <span
-      className="bg-clip-text text-transparent whitespace-nowrap text-[50px] sm:text-[50px] md:text-[50px] lg:text-[50px] leading-[30px] sm:leading-[40px] md:leading-[50px] lg:leading-[63.15px] font-futuraLight"
-      style={{
-        backgroundImage: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
-      }}
-    >
-      Leading digitally, for a better future
-    </span>
-  </h1>
-  <p className="mt-2 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl text-white text-[20px] sm:text-[20px] md:text-[20px] font-light leading-[24px] sm:leading-[24px] md:leading-relaxed">
-    We are a women-led team of millennials and Gen Z who excel at strategic thinking.
-    Give your vision, we will turn it into reality. Let the world notice your brand
-    with goosebumps!
-  </p>
-</div>
+  <div
+    className="relative z-10 flex flex-col items-center px-4 sm:px-8 bg-cover bg-center w-full h-[50vh] sm:h-[85vh] md:h-[90vh]"
+    style={{
+      backgroundImage: 'url(./image/Aboutbg.png)', 
+    }}
+  >
+    {/* WhatsApp Floating Icon */}
+    <div className="fixed right-5 bottom-12 sm:bottom-6 w-[60px] sm:w-[70px] lg:w-[80px] h-[60px] sm:h-[70px] lg:h-[80px] z-10">
+      <a href="https://wa.me/9074429360">
+        <img
+          src="image/whatsapplogo.png"
+          alt="WhatsApp Logo"
+          className="w-full h-full"
+        />
+      </a>
+    </div>
 
+    {/* Heading */}
+    <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-semibold text-white font-futuraLight mt-24 leading-tight">
+      Hello there!
+      <br />
+      <span
+        className="bg-clip-text text-transparent text-[40px] sm:text-[50px] md:text-[60px] font-futuraLight"
+        style={{
+          backgroundImage:
+            'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
+        }}
+      >
+        Leading digitally, for a better future
+      </span>
+    </h1>
+
+    {/* Description */}
+    <p className="mt-4 max-w-sm sm:max-w-md md:max-w-lg text-white text-[16px] sm:text-[18px] md:text-[20px] font-light leading-relaxed">
+      We are a women-led team of millennials and Gen Z who excel at strategic thinking.
+      Give your vision, we will turn it into reality. Let the world notice your brand
+      with goosebumps!
+    </p>
+  </div>
 </section>
 
 {/* About Section */}
@@ -128,7 +131,7 @@ const About = () => {
   </div>
 </div>
    
-</div>
+</div>                                                                                                                                               
     </>
   );
 };
