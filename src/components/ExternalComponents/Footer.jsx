@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-<footer className="bg-black text-white py-6 -mt-5">
+<footer className="bg-black text-white py-6 -mt-3">
   <div className="container mx-auto px-4">
     {/* Centered Logo, Links, and Social Icons for Smaller Screens */}
     <div className="flex flex-col items-center space-y-6 md:flex-row md:space-y-0 md:justify-between">

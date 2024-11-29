@@ -528,7 +528,7 @@ return (<>
   </div>
 
   {/* Content */}
-  <div className="absolute bottom-32 sm:bottom-36 md:bottom-48 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-4 lg:px-0">
+  <div className="absolute bottom-10 sm:bottom-12 md:bottom-20 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-4 lg:px-0">
     <a href="/howitworks">
       <button className="py-3 px-5 w-[180px] sm:w-[200px] md:w-[250px] lg:w-[290px] h-[40px] sm:h-[45px] md:h-[55px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-[700] leading-[14px]">
         GET CONSULTATION
@@ -536,6 +536,7 @@ return (<>
     </a>
   </div>
 </div>
+
 
 
 </>
