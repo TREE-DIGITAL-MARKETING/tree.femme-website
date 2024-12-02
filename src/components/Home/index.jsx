@@ -498,7 +498,7 @@ return (<>
   </section>
 
 {/* Last Section */}
-<div className="relative text-white h-screen w-full flex items-center justify-center -mt-28 px-4 lg:px-20 mt-6">
+<div className="relative text-white h-screen w-full flex items-center justify-center  px-4 lg:px-20 mt-6">
   {/* Main Content Wrapper */}
   <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-start items-center z-0 max-w-[85%] mx-auto">
     <div className="relative z-10">
