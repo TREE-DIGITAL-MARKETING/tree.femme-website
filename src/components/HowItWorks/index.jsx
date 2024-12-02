@@ -148,7 +148,8 @@ const HowItWorks = () => {
         </form>
       </main>
        {/*last section */}
- <div className="relative text-white h-screen w-full flex items-center justify-center -mt-28 ">
+       {/*last section */}
+       <div className="relative text-white h-screen w-full flex items-center justify-center -mt-28 ">
   <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-start items-center z-0 max-w-[85%] mx-auto">
     <div className="relative z-10">
       <img
@@ -185,6 +186,7 @@ const HowItWorks = () => {
     </a>
   </div>
 </div>
+ 
     </div>
     
     
