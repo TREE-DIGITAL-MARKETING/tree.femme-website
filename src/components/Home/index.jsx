@@ -91,11 +91,10 @@ return (<>
   </div>
   
 <br />
-    <div className="font-futuraLight font-[300] text-[30px] sm:text-[30px] md:text-[30px]  leading-[36.9px] lg:leading-[36.9px] text-white">
-      <p>Helming Future Tech . . .  </p>
-      </div>
+<div className="font-futuraLight font-[300] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[32px] 2xl:text-[34px] leading-[28px] sm:leading-[32px] md:leading-[34px] lg:leading-[36.9px] xl:leading-[40px] 2xl:leading-[42px] text-white">
+  <p>Helming Future Tech . . .</p>
+</div>
  
-    
     <div className="flex justify-center lg:hidden mt-4">
       <img 
         src="./image/homepagegif.png" 
@@ -104,7 +103,6 @@ return (<>
       />
     </div>
 
-   
     <div
       className="h-[0.5px] w-full lg:w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
       style={{
@@ -114,15 +112,13 @@ return (<>
       }}
     ></div>
 <br/>
-   
-    <a href="/howitworks">
+<a href="/howitworks">
   <button className="inline-flex items-center px-4 py-2 sm:px-6 sm:py-3 w-[200px] sm:w-[219px] h-[40px] sm:h-[45.82px] rounded-full font-montserratLight text-[16px] sm:text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition mt-4 lg:mt-4">
     Get Started
     <img src="./image/right-arrow.png" alt="right arrow image" className="h-[18.64px] ml-8 sm:ml-8" />
   </button>
 </a>
-  </div>
-
+</div>
   <div className="hidden lg:flex justify-center lg:justify-end">
   <img 
     src="./image/homepagegif.png" 
@@ -172,7 +168,6 @@ return (<>
         Top-notch Web Designs to make your<br />Brand unique
       </p>
     </div>
-
     {/* Card 2 */}
     <div
       className="w-full max-w-[300px] h-[200px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
@@ -188,7 +183,6 @@ return (<>
         Strengthen Customer Relationship
       </p>
     </div>
-
     {/* Card 3 */}
     <div
       className="w-full max-w-[300px] h-[200px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
@@ -233,7 +227,6 @@ return (<>
       </h3>
       <p className="mt-4 text-[14px] leading-[16px] text-center font-montserratLight">Reach a large global market</p>
     </div>
-
     {/* Logo Card */}
     <div
       className="w-full max-w-[300px] h-[200px] mx-auto p-6 rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden"
@@ -302,7 +295,6 @@ return (<>
     </div>
   </div>
 </section>
-
  
 {/*.......Get in Touch.........*/}
 <section id="getintouch" className="flex items-center justify-center min-h-screen bg-black -mt-10">
@@ -311,8 +303,7 @@ return (<>
     style={{
       background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
     }}
-  >
-  
+  > 
     <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
       <img
         src="./image/getintouch.png"
@@ -320,15 +311,12 @@ return (<>
         className="w-[120px] sm:w-[140px] md:w-[160px] lg:w-[180px] h-auto"
       />
     </div>
-
-  
     <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-4">
       <h2
         className="text-white font-futuraLight text-[20px] sm:text-[24px] md:text-[28px] lg:text-[34px] font-[500] leading-tight md:leading-[32px] lg:leading-[38px] text-center md:text-left"
       >
         To set new benchmarks and to bridge <br className="hidden md:block" /> the digital divide
       </h2>
-
       {/* Email Input and Button */}
       <form onSubmit={handleSubmit} className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
          <div className="relative w-[350px] sm:w-[300px] lg:w-[350px] h-[40px]">
@@ -346,21 +334,17 @@ return (<>
             </div>
           </div>
         </div>
-
         <button
           className="w-[140px] sm:w-[160px] md:w-[180px] lg:w-[190px] h-[40px] rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] bg-black border border-purple-500 text-white flex items-center justify-center space-x-2"
-          type="submit"
-        >
+          type="submit">
           <span>Get in touch</span>
           <img src="./image/right-arrow.png" alt="right arrow" className="h-4 sm:h-5 lg:h-6 inline-block" />
         </button>
       </form>
     </div>
   </div>
-  
   {isSubmitted && <Success />}
 </section>
-
 
 {/* Our Creatives */}
 <section className="bg-black text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-20 xl:px-24 -mt-10">
@@ -370,8 +354,7 @@ return (<>
       border: "1px solid",
       borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
       borderImageSlice: 1
-    }}
-  />
+    }}/>
   <div className="max-w-screen-xl mx-auto">
     <div className="text-center">
       <h2 className="text-white text-[24px] sm:text-[28px] md:text-[32px] lg:text-[35px] font-MontserratRegular leading-[30px] sm:leading-[40px] md:leading-[45px] lg:leading-[55px] mb-4 sm:mb-6">
@@ -379,7 +362,7 @@ return (<>
       </h2>
     </div>
 
-   <div className="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
+<div className="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 mt-8 md:mt-12">
     {/* Left Section */}
     <div>
@@ -398,7 +381,6 @@ return (<>
         For the right solutions, 
         <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider"> let’s meet.</span>
       </p>
-
       {/* Quote */}
       <div className="flex items-start">
         <div className="h-[87px] w-[6px] bg-gradient-to-b from-purple-500 via-blue-500 to-cyan-500 mr-4"></div>
@@ -410,7 +392,6 @@ return (<>
           </span>
         </blockquote>
       </div>
-
       {/* Author */}
       <div className="flex items-center space-x-4">
         <img src="./image/ShemiSebin.png" alt="Shemi Sebin" className="w-10 sm:w-12 h-10 sm:h-12 rounded-full" />
@@ -476,7 +457,6 @@ return (<>
   </div>
  </div>
 </section>
-
 
   {/* Development Process Section */}
  <section className="flex items-center justify-center min-h-screen bg-black -mt-10">  

@@ -7,10 +7,16 @@ const { Suspense } = React;
 
 function App() {
   return (
-    <Suspense className = "p-3" fallback={<div>Loading...</div>}> {/* Suspense to handle lazy loading */}
-    <Navbar/>
+    <Suspense
+      fallback={
+        <div className="flex items-center justify-center h-screen">
+          <img src=".\image\loading.gif" alt="Loading..." className="w-auto" />
+        </div>
+      }
+    >
+      <Navbar />
       <RouterProvider router={router} />
-      <Footer/>
+      <Footer />
     </Suspense>
   );
 }
