@@ -30,7 +30,7 @@ const About = () => {
 </div>
 
     {/* Heading */}
-    <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-[500] text-white font-futuraLight mt-12 leading-[50px] sm:leading-[63.1px]">
+    <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-[500] text-white font-futuraLight mt-16 leading-[50px] sm:leading-[63.1px] ">
   Hello there!
   <br />
   <span
@@ -43,8 +43,6 @@ const About = () => {
     Leading digitally, for a better future
   </span>
 </h1>
-
-
     {/* Description */}
     <p className="mt-4 max-w-sm sm:max-w-md md:max-w-lg text-white text-[16px] sm:text-[18px] md:text-[20px] font-[300] leading-relaxed">
       We are a women-led team of millennials and Gen Z who excel at strategic thinking.
@@ -55,7 +53,7 @@ const About = () => {
 </section>
 
 {/* About Section */}
-<section className="px-4 sm:px-8 md:px-12 lg:pl-36 py-8 sm:py-12 flex justify-center">
+<section className="px-4 sm:px-8 md:px-12 lg:pl-36 py-8 sm:py-12 flex justify-center mt-12">
   <div
     className="relative py-6 px-6 border-2 rounded-xl max-w-[884px] w-full mx-auto"
     style={{
@@ -94,7 +92,7 @@ const About = () => {
 </section>
 
 {/* Last Section */}
-<div className="relative text-white h-screen w-full flex items-center justify-center  px-4 lg:px-20 mt-6">
+<div className="relative text-white h-screen w-full flex items-center justify-center  px-4 lg:px-20 -mt-6">
   {/* Main Content Wrapper */}
   <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-start items-center z-0 max-w-[85%] mx-auto">
     <div className="relative z-10">
