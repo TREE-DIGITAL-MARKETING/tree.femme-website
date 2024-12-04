@@ -30,20 +30,20 @@ const About = () => {
 </div>
 
     {/* Heading */}
-    <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-[500] text-white font-futuraLight mt-16 leading-[50px] sm:leading-[63.1px] ">
+    <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-[500] text-white font-futuraLight mt-12 leading-[50px] sm:leading-[63.1px] ">
   Hello there!
   <br />
   <span
-    className="bg-clip-text text-transparent text-[40px] sm:text-[50px] md:text-[60px] font-futuraLight leading-[50px] sm:leading-[63.1px]"
-    style={{
-      backgroundImage:
-        'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
-    }}
-  >
-    Leading digitally, for a better future
-  </span>
+  className="bg-clip-text text-transparent text-[30px] sm:text-[50px] md:text-[60px] font-futuraLight leading-[30px] sm:leading-[63.1px]"
+  style={{
+    backgroundImage:
+      'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
+    whiteSpace: 'nowrap', 
+  }}
+>
+  Leading digitally, for a better future
+</span>
 </h1>
-    {/* Description */}
     <p className="mt-4 max-w-sm sm:max-w-md md:max-w-lg text-white text-[16px] sm:text-[18px] md:text-[20px] font-[300] leading-relaxed">
       We are a women-led team of millennials and Gen Z who excel at strategic thinking.
       Give your vision, we will turn it into reality. Let the world notice your brand
