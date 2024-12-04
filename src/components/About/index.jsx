@@ -53,7 +53,7 @@ const About = () => {
 </section>
 
 {/* About Section */}
-<section className="px-4 sm:px-8 md:px-12 lg:pl-36 py-8 sm:py-12 flex justify-center mt-12">
+<section className="px-4 sm:px-8 md:px-12 lg:pl-36 py-8 sm:py-12 flex justify-center mt-16">
   <div
     className="relative py-6 px-6 border-2 rounded-xl max-w-[884px] w-full mx-auto"
     style={{
