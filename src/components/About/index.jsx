@@ -44,7 +44,7 @@ const About = () => {
   Leading digitally, for a better future
 </span>
 </h1>
-    <p className="mt-4 max-w-sm sm:max-w-md md:max-w-lg text-white text-[16px] sm:text-[18px] md:text-[20px] font-[300] leading-relaxed">
+    <p className="mt-4 max-w-sm sm:max-w-md md:max-w-lg text-white text-[16px] sm:text-[18px] md:text-[20px] font-[300] leading-relaxed mb-12">
       We are a women-led team of millennials and Gen Z who excel at strategic thinking.
       Give your vision, we will turn it into reality. Let the world notice your brand
       with goosebumps!
@@ -53,7 +53,7 @@ const About = () => {
 </section>
 
 {/* About Section */}
-<section className="px-4 sm:px-8 md:px-12 lg:pl-36 py-8 sm:py-12 flex justify-center mt-16">
+<section className="px-4 sm:px-8 md:px-12 lg:pl-36 py-8 sm:py-12 flex justify-center mt-12">
   <div
     className="relative py-6 px-6 border-2 rounded-xl max-w-[884px] w-full mx-auto"
     style={{
