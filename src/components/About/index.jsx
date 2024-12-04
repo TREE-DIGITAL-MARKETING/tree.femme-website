@@ -34,7 +34,7 @@ const About = () => {
   Hello there!
   <br />
   <span
-  className="bg-clip-text text-transparent text-[30px] sm:text-[50px] md:text-[60px] font-futuraLight leading-[30px] sm:leading-[63.1px]"
+  className="bg-clip-text text-transparent text-[30px] sm:text-[40px] md:text-[60px] font-futuraLight leading-[30px] sm:leading-[63.1px]"
   style={{
     backgroundImage:
       'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
