@@ -104,13 +104,14 @@ return (<>
     </div>
 
     <div
-      className="h-[0.5px] w-full lg:w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
-      style={{
-        border: "1px solid",
-        borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-        borderImageSlice: 1,
-      }}
-    ></div>
+  className="h-[0.5px] w-full sm:w-[200px] md:w-[450px] lg:w-[615px] xl:w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
+  style={{
+    border: "1px solid",
+    borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+    borderImageSlice: 1,
+  }}
+></div>
+
 <br/>
 <a href="/howitworks">
   <button className="inline-flex items-center px-4 py-2 sm:px-6 sm:py-3 w-[200px] sm:w-[219px] h-[40px] sm:h-[45.82px] rounded-full font-montserratLight text-[16px] sm:text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition mt-4 lg:mt-4">
@@ -257,29 +258,16 @@ return (<>
     what we do
   </h2>
   <p className="text-base sm:text-lg md:text-xl lg:text-[20px] mb-3 sm:mb-4 font-MontserratRegular font-medium leading-relaxed md:leading-[39.38px] tracking-wide">
-    Save hundreds of hours by just collaborating with us. 
-    <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent">
-      Sounds bizarre?
+    Save hundreds of hours by just collaborating with us.<span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent"> Sounds bizarre?
     </span>
   </p>
   <p className="text-base sm:text-lg md:text-xl lg:text-[20px] -mt-1 md:-mt-2 font-MontserratRegular font-medium leading-relaxed md:leading-[39.38px] tracking-wide">
-    In a world where technology has a say in everything we do, let's kickstart any 
-    <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent">
-      digital marketing project
-    </span> 
-    with utmost easiness. As a women-led team, we always keep looking for new challenges digitally 
-    (Because we are confident to get things done!).
-  </p>
+    In a world where technology has a say in everything we do, let's kickstart any <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent"> digital marketing project </span> 
+    with utmost easiness. As a women-led team, we always keep looking for new challenges digitally (Because we are confident to get things done!). </p>
   <p className="text-base sm:text-lg md:text-xl lg:text-[20px] -mt-1 md:-mt-2 font-MontserratRegular font-medium leading-relaxed md:leading-[39.38px] tracking-wide">
-    You give us problems,
-    <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent">
-      we give you solutions
-    </span>. 
-    We are here to ensure your brand's consistency and will help you attract your 
-    <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent">
-      ideal prospects
-    </span>.
-  </p>
+    You give us problems, <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent"> we give you solutions</span>. We are here to ensure your brand's consistency and will help you attract your 
+    <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent"> ideal prospects
+    </span>. </p>
     {/* .............. Diamond session .............. */}
     <div className="flex justify-center items-center gap-4 md:gap-6 lg:gap-8 mt-8 flex-wrap">
       {["Inclusive", "Dynamic", "Tech Savvy", "Curious", "Creative"].map((text) => (
@@ -355,6 +343,7 @@ return (<>
       borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
       borderImageSlice: 1
     }}/>
+    <br/>
   <div className="max-w-screen-xl mx-auto">
     <div className="text-center">
       <h2 className="text-white text-[24px] sm:text-[28px] md:text-[32px] lg:text-[35px] font-MontserratRegular leading-[30px] sm:leading-[40px] md:leading-[45px] lg:leading-[55px] mb-4 sm:mb-6">
