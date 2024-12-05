@@ -13,7 +13,7 @@ const About = () => {
   className="relative flex flex-col items-center justify-center text-center py-5 sm:py-10 md:py-20 overflow-hidden w-full max-w-[1440px] mb-32"
 >
   <div
-    className="relative z-20 flex flex-col items-center px-4 sm:px-8 bg-cover bg-center w-full h-[35vh] sm:h-[85vh] md:h-[90vh] -mt-8"
+    className="relative z-20 flex flex-col items-center px-4 sm:px-8 bg-cover bg-center bg-blend-overlay w-full h-[35vh] sm:h-[85vh] md:h-[90vh] -mt-8"
     style={{
       backgroundImage: 'url(./image/Aboutbg.png)', 
     }}
@@ -30,7 +30,7 @@ const About = () => {
 </div>
 
     {/* Heading */}
-    <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-[500] text-white font-futuraLight mt-12 leading-[50px] sm:leading-[63.1px] ">
+    <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-[500] text-white font-futuraLight mt-16 leading-[50px] sm:leading-[63.1px] ">
   Hello there!
   <br />
   <span
@@ -53,7 +53,7 @@ const About = () => {
 </section>
 
 {/* About Section */}
-<section className="px-4 sm:px-8 md:px-12 lg:pl-36 py-8 sm:py-12 flex justify-center mt-12 sm:mt-0">
+<section className="px-4 sm:px-8 md:px-12 lg:pl-36 py-8 sm:py-12 flex justify-center mt-12 sm:mt-12 z-10">
   <div
     className="relative py-6 px-6 border-2 rounded-xl max-w-[884px] w-full mx-auto"
     style={{
