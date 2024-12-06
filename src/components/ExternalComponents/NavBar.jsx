@@ -192,12 +192,12 @@ function Navbar() {
   </ul>
 
   {/* Button */}
-  <button className="mt-8 px-8 py-2 bg-gradient-to-r from-purple-950 to-blue-600 text-white font-inter font-bold text-[11px] leading-[14px] rounded-full shadow-lg hover:scale-105 transition-transform font-futuraMedium">
+  <button className="mt-8 px-8 py-2 bg-gradient-to-r from-purple-950 to-blue-600 text-white font-inter font-bold text-[11px] leading-[14px] rounded-full shadow-lg hover:scale-105 transition-transform ">
     Send request
   </button>
 
   {/* Contact Details */}
-  <div className="mt-24 text-center mb-32">
+  <div className="mt-12 text-center mb-12">
     <p className="text-gray-300 text-[14px] font-MontserratRegular">+9562059159</p>
     <p className="text-gray-300 text-[14px] font-MontserratRegular">info@tree.com</p>
   </div>
@@ -213,7 +213,7 @@ function Navbar() {
   ></div>
 
   {/* Social Links */}
-  <div className="mt-6 w-full flex justify-between pt-4">
+  <div className="w-full flex justify-between pt-4">
     <a href="https://wa.me/9074429360" className="text-gray-500 text-[14px] font-inter ml-20">
       WhatsApp
     </a>
