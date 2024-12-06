@@ -127,52 +127,106 @@ function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`${menuOpen ? 'flex' : 'hidden'} lg:hidden flex-col items-center w-full bg-black p-4 absolute top-20 left-0 z-10`}
+  className={`${
+    menuOpen ? 'flex' : 'hidden'
+  } fixed inset-0 z-50 flex flex-col justify-start items-center bg-black bg-opacity-100 backdrop-blur-md p-4`}
+>
+  {/* Company Logo */}
+  <div className="absolute top-4 left-4">
+    <img src="./image/treelogonew3.png" alt="Company Logo" className="h-12 w-auto" />
+  </div>
+
+  {/* Close Button */}
+  <button
+    className="absolute top-4 right-4 text-white p-2 rounded-full shadow-lg"
+    onClick={() => {
+      setMenuOpen(false); // Close the menu
+      document.body.classList.remove('overflow-hidden'); // Re-enable scrolling
+    }}
+  >
+    ✕
+  </button>
+
+  {/* Menu Items */}
+  <ul className="flex flex-col items-center space-y-8 mt-16 font-MontserratRegular font-[700] text-[18px] leading-[27px] text-white">
+    <li>
+      <a
+        href="/"
+        className="font-inter text-[22px] font-[700] leading-[27px] group text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600"
       >
-        <ul className="flex flex-col items-center space-y-4 font-MontserratRegular font-[700] text-[18px] leading-[27px]">
-          <li>
-            <a
-              href="/"
-              className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              href="/about"
-              className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              href="/howitworks"
-              className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
-            >
-              How It Works
-            </a>
-          </li>
-          <li>
-            <a
-              href="/#service"
-              className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
-            >
-              Services
-            </a>
-          </li>
-          <li>
-            <a
-              href="/#getintouch"
-              className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
-            >
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        href="/about"
+        className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
+      >
+        About
+      </a>
+    </li>
+    <li>
+      <a
+        href="/howitworks"
+        className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
+      >
+        How It Works
+      </a>
+    </li>
+    <li>
+      <a
+        href="/#service"
+        className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
+      >
+        Services
+      </a>
+    </li>
+    <li>
+      <a
+        href="/#getintouch"
+        className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
+      >
+        Contact
+      </a>
+    </li>
+  </ul>
+
+  {/* Button */}
+  <button className="mt-8 px-8 py-2 bg-gradient-to-r from-purple-950 to-blue-600 text-white font-inter font-bold text-[11px] leading-[14px] rounded-full shadow-lg hover:scale-105 transition-transform font-futuraMedium">
+    Send request
+  </button>
+
+  {/* Contact Details */}
+  <div className="mt-24 text-center mb-32">
+    <p className="text-gray-300 text-[14px] font-MontserratRegular">+9562059159</p>
+    <p className="text-gray-300 text-[14px] font-MontserratRegular">info@tree.com</p>
+  </div>
+
+  {/* Separator */}
+  <div
+    className="h-[0.5px] w-full sm:w-[200px] md:w-[450px] lg:w-[615px] xl:w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 lg:mt-6"
+    style={{
+      border: '1px solid',
+      borderImageSource: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
+      borderImageSlice: 1,
+    }}
+  ></div>
+
+  {/* Social Links */}
+  <div className="mt-6 w-full flex justify-between pt-4">
+    <a href="https://wa.me/9074429360" className="text-gray-500 text-[14px] font-inter ml-20">
+      WhatsApp
+    </a>
+    <a
+      href="https://www.instagram.com/tree_information_technology?igsh=bGwzamN5ZHNqb2ls"
+      className="text-gray-500 text-[14px] font-inter mr-20"
+    >
+      Instagram
+    </a>
+  </div>
+</div>
+
+</div>
   );
 }
 
