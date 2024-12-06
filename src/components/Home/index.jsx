@@ -299,7 +299,7 @@ return (<>
         className="w-[120px] sm:w-[140px] md:w-[160px] lg:w-[180px] h-auto"
       />
     </div>
-    <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-4">
+    <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-3">
       <h2
         className="text-white font-futuraLight text-[20px] sm:text-[24px] md:text-[28px] lg:text-[34px] font-[500] leading-tight md:leading-[32px] lg:leading-[38px] text-center md:text-left"
       >
