@@ -287,26 +287,26 @@ return (<>
 {/*.......Get in Touch.........*/}
 <section id="getintouch" className="flex items-center justify-center min-h-screen bg-black -mt-10">
   <div
-    className="flex flex-col md:flex-row items-center justify-center text-white text-center p-4 rounded-2xl shadow-lg w-full max-w-[1100px] h-auto"
+    className="flex flex-col sm:flex-col md:flex-row items-center justify-center text-white text-center p-4 rounded-2xl shadow-lg w-full max-w-[1100px] h-auto"
     style={{
       background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
     }}
   > 
-    <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
+    <div className="flex justify-center sm:justify-center md:justify-start mb-4 sm:mb-4 md:mb-0 md:mr-36">
       <img
         src="./image/getintouch.png"
         alt="get in touch image"
         className="w-[120px] sm:w-[140px] md:w-[160px] lg:w-[180px] h-auto"
       />
     </div>
-    <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-3">
+    <div className="flex flex-col items-center sm:items-center md:items-start space-y-4 sm:space-y-4 md:space-y-3">
       <h2
-        className="text-white font-futuraLight text-[20px] sm:text-[24px] md:text-[28px] lg:text-[34px] font-[500] leading-tight md:leading-[32px] lg:leading-[38px] text-center md:text-left"
+        className="text-white font-futuraLight text-[20px] sm:text-[24px] md:text-[28px] lg:text-[34px] font-[500] leading-tight md:leading-[32px] lg:leading-[38px] text-center sm:text-center md:text-left"
       >
         To set new benchmarks and to bridge <br className="hidden md:block" /> the digital divide
       </h2>
       {/* Email Input and Button */}
-      <form onSubmit={handleSubmit} className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
+      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-col md:flex-row items-center sm:items-center md:items-start space-y-2 sm:space-y-2 md:space-y-0 md:space-x-4">
          <div className="relative w-[350px] sm:w-[300px] lg:w-[350px] h-[40px]">
           <div className="absolute inset-0 rounded-full border-[0.78px] border-transparent bg-gradient-to-r from-[#4047c7] to-[#6929f4] border-sky-500">
             <div className="absolute inset-[1px] bg-transparent rounded-full">
@@ -333,6 +333,7 @@ return (<>
   </div>
   {isSubmitted && <Success />}
 </section>
+
 
 {/* Our Creatives */}
 <section className="bg-black text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-20 xl:px-24 -mt-10">

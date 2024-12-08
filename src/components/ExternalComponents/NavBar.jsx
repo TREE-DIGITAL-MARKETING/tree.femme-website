@@ -148,58 +148,65 @@ function Navbar() {
   </button>
 
   {/* Menu Items */}
-  <ul className="flex flex-col items-center space-y-8 mt-16 font-MontserratRegular font-[700] text-[18px] leading-[27px] text-white">
+  <ul className="flex flex-col items-center space-y-8 mt-16 font-inter font-[700] text-[18px] leading-[27px] text-white">
     <li>
       <a
-        href="/"
-        className="font-inter text-[22px] font-[700] leading-[27px] group text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600"
-      >
+         href="/"
+         className={`group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 font-inter text-[18px] font-[700] leading-[27px] ${
+           window.location.pathname === '/' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
+         }`} >
         Home
       </a>
     </li>
     <li>
       <a
         href="/about"
-        className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
-      >
+        className={`font-inter text-[18px] font-[700] leading-[27px]  group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
+          window.location.pathname === '/about' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
+        }`} >
         About
       </a>
     </li>
     <li>
       <a
         href="/howitworks"
-        className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
-      >
+        className={`font-inter text-[18px] font-[700] leading-[27px]  group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
+          window.location.pathname === '/howitworks' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
+        }`}>
         How It Works
       </a>
     </li>
     <li>
       <a
-        href="/#service"
-        className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
-      >
+         href="/#service"
+         className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
+           window.location.pathname === '/service' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
+         }`}  >
         Services
       </a>
     </li>
     <li>
       <a
         href="/#getintouch"
-        className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
-      >
+        className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
+          window.location.pathname === '/contact' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
+        }`} >
         Contact
       </a>
     </li>
   </ul>
 
   {/* Button */}
+  <a href="/howitworks">
   <button className="mt-8 px-8 py-2 bg-gradient-to-r from-purple-950 to-blue-600 text-white font-inter font-bold text-[11px] leading-[14px] rounded-full shadow-lg hover:scale-105 transition-transform ">
     Send request
   </button>
+  </a>
 
   {/* Contact Details */}
   <div className="mt-12 text-center mb-12">
-    <p className="text-gray-300 text-[14px] font-MontserratRegular">+9562059159</p>
-    <p className="text-gray-300 text-[14px] font-MontserratRegular">info@tree.com</p>
+    <p className="text-gray-300 text-[14px] font-MontserratRegular mb-2">+91-9074429360</p>
+    <p className="text-gray-300 text-[14px] font-MontserratRegular">treedigitalmarketing2024@gmail.com</p>
   </div>
 
   {/* Separator */}
