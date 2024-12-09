@@ -71,7 +71,7 @@ const About = () => {
         />
       </div>
       <div className="flex-1 mt-4 md:mt-0 md:ml-52 text-center md:text-left">
-        <h2 className="font-futuraMedium font-[500] text-[40px] sm:text-[40px] md:text-[40px] lg:text-[40]px] leading-[50.52px] sm:leading-[50.52px] md:leading-[50.52px]  lg:leading-[50.52px] mb-2 sm:mb-3 md:mb-4">
+        <h2 className="font-futuraMedium font-[500] text-[40px] sm:text-[20px] md:text-[30px] lg:text-[40px] leading-[50.52px] sm:leading-[50.52px] md:leading-[50.52px]  lg:leading-[50.52px] mb-2 sm:mb-3 md:mb-4">
           Achieve success with{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5200FF] to-[#00F0FF]">
             grit & grace
