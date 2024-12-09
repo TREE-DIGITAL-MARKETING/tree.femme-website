@@ -66,7 +66,7 @@ const HowItWorks = () => {
       {/* Main Section */}
       <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto -mt-14">
         <div className="w-full">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium leading-tight font-futuraMedium mb-2">
+          <h1 className="text-3xl sm:text-3xl md:text-5xl lg:text-6xl font-medium leading-tight font-futuraMedium mb-2">
             Amplify your market reach,{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-blue-700 to-pink-800">
               let's grow digitally
@@ -85,7 +85,7 @@ const HowItWorks = () => {
           <div className="mb-6">
             <label className="block mb-2 text-lg font-medium text-gray-200">
               Name
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800">*</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
             </label>
             <input
               className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
@@ -100,7 +100,7 @@ const HowItWorks = () => {
           <div className="mb-6">
             <label className="block mb-2 text-lg font-medium text-gray-200">
               Phone No
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800">*</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
             </label>
             <input
               className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
@@ -115,7 +115,7 @@ const HowItWorks = () => {
           <div className="mb-6">
             <label className="block mb-2 text-lg font-medium text-gray-200">
               Email
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800">*</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
             </label>
             <input
               className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
@@ -130,7 +130,7 @@ const HowItWorks = () => {
           <div className="mb-8">
             <label className="block mb-2 text-lg font-medium text-gray-200">
               Message
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800">*</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
             </label>
             <textarea
               name="message"
@@ -164,7 +164,11 @@ const HowItWorks = () => {
           WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
         }}
       />
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-2 lg:px-4">
+     <div
+  className="absolute inset-0 flex flex-col justify-center items-center text-center px-2 lg:px-4"
+  style={{ marginLeft: '-20px' }} // Adjust the value as needed
+>
+
         <h1 className="text-[26px] md:text-[36px] lg:text-[40px] font-[700] leading-tight md:leading-[48px] lg:leading-[52.16px] font-futuraBold">
           DISCUSS A PROJECT
         </h1>
@@ -186,8 +190,7 @@ const HowItWorks = () => {
     </a>
   </div>
 </div>
- 
-    </div>
+ </div>
     
     
   );
