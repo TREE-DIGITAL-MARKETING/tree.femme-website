@@ -104,7 +104,7 @@ return (<>
     </div>
 
     <div
-  className="h-[0.5px] w-full sm:w-[200px] md:w-[450px] lg:w-[615px] xl:w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
+  className="hidden sm:block h-[0.5px] w-full sm:w-[200px] md:w-[450px] lg:w-[615px] xl:w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
   style={{
     border: "1px solid",
     borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
@@ -114,10 +114,13 @@ return (<>
 
 <br/>
 <a href="/howitworks">
-  <button className="inline-flex items-center px-4 py-2 sm:px-6 sm:py-3 w-[200px] sm:w-[219px] h-[40px] sm:h-[45.82px] rounded-full font-montserratLight text-[16px] sm:text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition mt-4 lg:mt-4">
+<button className="inline-flex items-center justify-center px-4 py-2 sm:px-6 sm:py-3 w-[250px] sm:w-[219px] h-[50px] sm:h-[45.82px] rounded-full font-montserratLight text-[16px] sm:text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition mt-4 lg:mt-4">
+  <span className="flex items-center">
     Get Started
-    <img src="./image/right-arrow.png" alt="right arrow image" className="h-[18.64px] ml-8 sm:ml-8" />
-  </button>
+    <img src="./image/right-arrow.png" alt="right arrow image" className="h-[18.64px] ml-4" />
+  </span>
+</button>
+
 </a>
 </div>
   <div className="hidden lg:flex justify-center lg:justify-end">
