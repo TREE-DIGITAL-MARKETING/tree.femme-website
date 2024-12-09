@@ -30,11 +30,11 @@ const About = () => {
     </div>
 
     {/* Heading */}
-    <h1 className="text-[30px] sm:text-[40px] md:text-[50px] font-[700]  text-white font-futuraLight mt-16 leading-[40px] sm:leading-[50px] md:leading-[60px]">
+    <h1 className="text-[30px] sm:text-[40px] md:text-[50px] font-[700] text-white font-futuraLight mt-16 leading-[40px] sm:leading-[50px] md:leading-[60px]">
       Hello there!
       <br />
       <span
-        className="bg-clip-text text-transparent font-[700] text-[24px] sm:text-[30px] md:text-[40px] font-futuraLight leading-[28px] sm:leading-[40px]"
+        className="whitespace-nowrap bg-clip-text text-transparent font-[700] text-[24px] sm:text-[30px] md:text-[40px] font-futuraLight leading-[28px] sm:leading-[40px]"
         style={{
           backgroundImage:
             'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
