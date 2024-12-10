@@ -49,10 +49,7 @@ const HowItWorks = () => {
   }
 
   return (
-    <div className="relative bg-black text-white px-4 lg:px-16 py-10 bg-cover bg-center" style={{ backgroundImage: "url('/path/to/your-image.jpg')" }}>
-      {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-black opacity-50"></div>
-      {/* WhatsApp Floating Icon */}
+    <div className="relative bg-black text-white px-4 lg:px-16 py-10" >
       <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[60px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] -mr-5 z-10">
   <a href="https://wa.me/9074429360">
     <img
@@ -64,9 +61,9 @@ const HowItWorks = () => {
 </div>
 
       {/* Main Section */}
-      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto -mt-14">
+      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto -mt-14 mr-40">
         <div className="w-full">
-          <h1 className="text-3xl sm:text-3xl md:text-5xl lg:text-6xl font-medium leading-tight font-futuraMedium mb-2">
+          <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-medium leading-tight font-futuraMedium mb-2">
             Amplify your market reach,{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-blue-700 to-pink-800">
               let's grow digitally
@@ -180,7 +177,7 @@ const HowItWorks = () => {
   </div>
 
   {/* Button Section */}
-  <div className="absolute bottom-36 md:bottom-24 lg:bottom-auto right-4 lg:right-8 mr-20 z-10 flex justify-end px-4 lg:px-0">
+  <div className="absolute bottom-36 md:bottom-24 lg:bottom-auto right-4 lg:-right-5 mr-20 z-10 flex justify-end px-4 lg:px-0">
   <a href="/howitworks">
     <button className="py-3 px-5 w-[180px] md:w-[220px] lg:w-[290px] h-[40px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[14px] md:text-[18px] lg:text-[20px] font-[700] leading-[14px] mt-4 md:mt-8">
       GET CONSULTATION
