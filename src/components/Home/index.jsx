@@ -45,20 +45,20 @@ const Home = () => {
     setFormData(formdataFormat); // Reset form after submission
   };
 
-  // useEffect(() => {
-  //   if (window.location.hash === '#service') {
-  //     const element = document.getElementById('service');
-  //     if (element) {
-  //       element.scrollIntoView({ behavior: 'smooth' });
-  //     }
-  //   }
-  //   if (window.location.hash === '#getintouch') {
-  //     const element = document.getElementById('getintouch');
-  //     if (element) {
-  //       element.scrollIntoView({ behavior: 'smooth' });
-  //     }
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (window.location.hash === '#service') {
+      const element = document.getElementById('service');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    if (window.location.hash === '#getintouch') {
+      const element = document.getElementById('getintouch');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
 return (<>
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
