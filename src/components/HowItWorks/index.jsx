@@ -49,7 +49,10 @@ const HowItWorks = () => {
   }
 
   return (
-    <div className="relative bg-black text-white px-4 lg:px-16 py-10" >
+    <div className="relative bg-black text-white px-4 lg:px-16 py-10 ">
+      {/* Overlay for readability */}
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+      {/* WhatsApp Floating Icon */}
       <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[60px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] -mr-5 z-10">
   <a href="https://wa.me/9074429360">
     <img
@@ -61,7 +64,7 @@ const HowItWorks = () => {
 </div>
 
       {/* Main Section */}
-      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto -mt-14 mr-40">
+      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto md:mr-40 lg:mr-40 xl:mr-40">
         <div className="w-full">
           <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-medium leading-tight font-futuraMedium mb-2">
             Amplify your market reach,{" "}
@@ -144,9 +147,9 @@ const HowItWorks = () => {
           </button>
         </form>
       </main>
-       {/*last section */}
-       {/*last section */}
-       <div className="relative text-white h-screen w-full flex items-center justify-center  left-4 lg:-left-12 px-4 lg:px-20 mt-6">
+      
+  {/*last section */}
+       <div className="relative text-white h-screen w-full flex items-center justify-center sm:ml-10  left-4 lg:-left-12 px-4 lg:px-20 mt-6">
   {/* Main Content Wrapper */}
   <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-start items-center z-0 max-w-[85%] mx-auto">
     <div className="relative z-10">
