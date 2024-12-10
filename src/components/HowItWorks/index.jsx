@@ -148,35 +148,35 @@ const HowItWorks = () => {
       </main>
       
 {/* Last Section */}
-<div className="relative text-white h-screen w-full flex items-center justify-center  px-4 lg:px-20 sm:-mt-10">
+<div className="relative text-white h-screen w-full flex items-center justify-center  px-4 lg:px-20 mt-6">
   {/* Main Content Wrapper */}
-  <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-center items-center z-0 -left-24 max-w-[85%] mx-auto">
-    <div className="relative z-10">
-      <img
-        src=".\image\last 3.gif"
-        alt="last session img"
-        className="w-[300px] md:w-[400px] lg:w-[500px] h-[200px] md:h-[250px] lg:h-[300px]"
-        style={{
-          border: 'none',
-          boxShadow: 'none',
-          mixBlendMode: 'color-burn',
-          maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
-          WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
-        }}
-      />
-      {/* Text Section */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:px-6">
-        <h1 className="text-[22px] md:text-[36px] lg:text-[40px] font-[700] leading-tight md:leading-[48px] lg:leading-[52.16px] font-futuraBold">
-          DISCUSS A PROJECT
-        </h1>
-        <p className="font-futuraLightFont text-[14px] md:text-[20px] lg:text-[26px] leading-snug md:leading-[30px] lg:leading-[33.62px] mt-4">
-          We know how to mold your project
-          <br />
-          Let's put the words into action
-        </p>
-      </div>
+  <div className="absolute inset-0 flex justify-center sm:justify-center md:justify-start lg:justify-start items-center z-0 max-w-[85%] mx-auto">
+  <div className="relative z-10 md:ml-[-50px] lg:ml-[-70px] xl:ml-[-100px] 2xl:ml-[-120px]">
+    <img
+      src=".\image\last 3.gif"
+      alt="last session img"
+      className="w-[300px] md:w-[400px] lg:w-[500px] h-[200px] md:h-[250px] lg:h-[300px]"
+      style={{
+        border: 'none',
+        boxShadow: 'none',
+        mixBlendMode: 'color-burn',
+        maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
+        WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
+      }}
+    />
+    {/* Text Section */}
+    <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:px-6">
+      <h1 className="text-[22px] md:text-[36px] lg:text-[40px] font-[700] leading-tight md:leading-[48px] lg:leading-[52.16px] font-futuraBold">
+        DISCUSS A PROJECT
+      </h1>
+      <p className="font-futuraLightFont text-[14px] md:text-[20px] lg:text-[26px] leading-snug md:leading-[30px] lg:leading-[33.62px] mt-4">
+        We know how to mold your project
+        <br />
+        Let's put the words into action
+      </p>
     </div>
   </div>
+</div>
 
   {/* Button Section */}
   <div className="absolute bottom-36 md:bottom-24 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-4 lg:px-0">
