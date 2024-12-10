@@ -85,8 +85,8 @@ return (<>
  
   <div className="grid grid-cols-1 lg:grid-cols-2 justify-start items-center">
     <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%]">
-      <p className="whitespace-nowrap sm:block">Seamless fusion of Technology &</p>
-      <p className="whitespace-nowrap sm:block">Creativity</p>
+      <p className="whitespace-nowrap">Seamless fusion of Technology &</p>
+      <p className="whitespace-nowrap">Creativity</p>
     </div>
   </div>
   
@@ -267,7 +267,7 @@ return (<>
   <p className="text-base sm:text-lg md:text-xl lg:text-[20px] -mt-1 md:-mt-2 font-MontserratRegular font-medium leading-relaxed md:leading-[39.38px] tracking-wide">
     In a world where technology has a say in everything we do, let's kickstart any <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent"> digital marketing project </span> 
     with utmost easiness. As a women-led team, we always keep looking for new challenges digitally (Because we are confident to get things done!). </p>
-  <p className="text-base sm:text-lg md:text-xl lg:text-[20px] -mt-1 md:-mt-2 font-MontserratRegular font-medium leading-relaxed md:leading-[39.38px] tracking-wide sm:block">
+  <p className="text-base sm:text-lg md:text-xl lg:text-[20px] -mt-1 md:-mt-2 font-MontserratRegular font-medium leading-relaxed md:leading-[39.38px] tracking-wide">
     You give us problems, <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent"> we give you solutions</span>. We are here to ensure your brand's consistency and will help you attract your 
     <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent"> ideal prospects
     </span>. </p>
