@@ -288,13 +288,16 @@ return (<>
 </section>
  
 {/*.......Get in Touch.........*/}
-<section id="getintouch" className="flex items-center justify-center min-h-screen bg-black -mt-10">
+<section
+  id="getintouch"
+  className="flex items-center justify-center min-h-screen bg-black -mt-10"
+>
   <div
-    className="flex flex-col md:flex-row items-center justify-center text-white text-center p-4 rounded-2xl shadow-lg w-full max-w-[1100px] h-auto"
+    className="flex flex-col md:flex-row items-center justify-center text-white text-center p-4 rounded-2xl shadow-lg w-full max-w-[1100px] h-auto sm:min-h-[1100px] sm:w-[900]"
     style={{
       background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
     }}
-  > 
+  >
     <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
       <img
         src="./image/getintouch.png"
@@ -309,8 +312,11 @@ return (<>
         To set new benchmarks and to bridge <br className="hidden md:block" /> the digital divide
       </h2>
       {/* Email Input and Button */}
-      <form onSubmit={handleSubmit} className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
-         <div className="relative w-[350px] sm:w-[300px] lg:w-[350px] h-[40px]">
+      <form
+        onSubmit={handleSubmit}
+        className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4"
+      >
+        <div className="relative w-[350px] sm:w-[300px] lg:w-[350px] h-[40px]">
           <div className="absolute inset-0 rounded-full border-[0.78px] border-transparent bg-gradient-to-r from-[#4047c7] to-[#6929f4] border-sky-500">
             <div className="absolute inset-[1px] bg-transparent rounded-full">
               <input
@@ -327,7 +333,8 @@ return (<>
         </div>
         <button
           className="w-[140px] sm:w-[160px] md:w-[180px] lg:w-[190px] h-[40px] rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] bg-black border border-purple-500 text-white flex items-center justify-center space-x-2"
-          type="submit">
+          type="submit"
+        >
           <span>Get in touch</span>
           <img src="./image/right-arrow.png" alt="right arrow" className="h-4 sm:h-5 lg:h-6 inline-block" />
         </button>
@@ -336,6 +343,7 @@ return (<>
   </div>
   {isSubmitted && <Success />}
 </section>
+
 
 {/* Our Creatives */}
 <section className="bg-black text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-20 xl:px-24 -mt-10">
