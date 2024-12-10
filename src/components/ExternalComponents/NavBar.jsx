@@ -182,7 +182,10 @@ function Navbar() {
          className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
            window.location.pathname === '/service' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
          }`}  >
+      <button onClick={() => setMenuOpen(false)}>
         Services
+      </button>
+
       </a>
     </li>
     <li>
@@ -191,7 +194,9 @@ function Navbar() {
         className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
           window.location.pathname === '/contact' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
         }`} >
+           <button onClick={() => setMenuOpen(false)}>
         Contact
+        </button>
       </a>
     </li>
   </ul>
