@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-<footer className="bg-black text-white py-6 -mt-3">
+<footer className="bg-black text-white py-6 -mt-3 ">
   <div className="container mx-auto px-4">
     {/* Centered Logo, Links, and Social Icons for Smaller Screens */}
     <div className="flex flex-col items-center space-y-6 md:flex-row md:space-y-0 md:justify-between">
@@ -10,7 +10,7 @@ function Footer() {
         <img
           src="./image/treelogonew3.png"
           alt="Logo"
-          className="w-[125px] h-[125px] -mt-4 hidden sm:block "
+          className="w-[115px] h-[115px] -mt-4 hidden sm:block "
         />
       </div>
 
@@ -34,14 +34,14 @@ function Footer() {
       </div>
 
       {/* Social Icons */}
-      <div className="flex space-x-4 mt-6 md:mt-0">
+      <div className="flex space-x-4 mt-6 md:mt-0 mr-10">
         <a href="https://www.linkedin.com/company/tree-information-technology/" className="flex justify-center items-center">
           <img src="./image/linkidinicon.png" className="w-10 h-10" alt="LinkedIn Icon" />
         </a>
-        <a href="https://www.instagram.com/tree_information_technology?igsh=bGwzamN5ZHNqb2ls" className="flex justify-center items-center">
+        <a href="https://www.instagram.com/tree_femme?igsh=bGwzamN5ZHNqb2ls" className="flex justify-center items-center">
           <img src="./image/instaicon.png" className="w-10 h-10" alt="Instagram Icon" />
         </a>
-        <a href="https://www.facebook.com/treeinformationtechnologycompany?mibextid=8HI2vyzhxhZ0rFJs" className="flex justify-center items-center">
+        <a href="https://www.facebook.com/share/15Yc7UxFwE/" className="flex justify-center items-center">
           <img src="./image/facebookicon.png" className="w-10 h-10" alt="Facebook Icon" />
         </a>
       </div>
