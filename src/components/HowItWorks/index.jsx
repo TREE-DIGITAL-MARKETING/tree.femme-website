@@ -50,8 +50,7 @@ const HowItWorks = () => {
 
   return (
     <div className="relative bg-black text-white px-4 lg:px-16 py-10 ">
-      {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      
       {/* WhatsApp Floating Icon */}
       <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[60px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] -mr-5 z-10">
   <a href="https://wa.me/9074429360">
@@ -64,7 +63,7 @@ const HowItWorks = () => {
 </div>
 
       {/* Main Section */}
-      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto md:mr-40 lg:mr-40 xl:mr-40">
+      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto md:mr-40 lg:mr-40 xl:mr-40 -mt-16">
         <div className="w-full">
           <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-medium leading-tight font-futuraMedium mb-2">
             Amplify your market reach,{" "}
@@ -148,8 +147,8 @@ const HowItWorks = () => {
         </form>
       </main>
       
-  {/*last section */}
-       <div className="relative text-white h-screen w-full flex items-center justify-center sm:ml-10  left-4 lg:-left-12 px-4 lg:px-20 mt-6">
+{/* Last Section */}
+<div className="relative text-white h-screen w-full flex items-center justify-center  px-4 lg:px-20 sm:-mt-10">
   {/* Main Content Wrapper */}
   <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-start items-center z-0 max-w-[85%] mx-auto">
     <div className="relative z-10">
@@ -180,14 +179,13 @@ const HowItWorks = () => {
   </div>
 
   {/* Button Section */}
-  <div className="absolute bottom-36 md:bottom-24 lg:bottom-auto right-4 lg:-right-5 mr-20 z-10 flex justify-end px-4 lg:px-0">
-  <a href="/howitworks">
-    <button className="py-3 px-5 w-[180px] md:w-[220px] lg:w-[290px] h-[40px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[14px] md:text-[18px] lg:text-[20px] font-[700] leading-[14px] mt-4 md:mt-8">
-      GET CONSULTATION
-    </button>
-  </a>
-</div>
-
+  <div className="absolute bottom-36 md:bottom-24 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-4 lg:px-0">
+    <a href="/howitworks">
+      <button className="py-3 px-5 w-[180px] md:w-[220px] lg:w-[290px] h-[40px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[14px] md:text-[18px] lg:text-[20px] font-[700] leading-[14px] mt-4 md:mt-8">
+        GET CONSULTATION
+      </button>
+    </a>
+  </div>
 </div>
 </div>
     
