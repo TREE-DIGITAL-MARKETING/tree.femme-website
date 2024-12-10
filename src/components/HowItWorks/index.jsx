@@ -150,7 +150,7 @@ const HowItWorks = () => {
 {/* Last Section */}
 <div className="relative text-white h-screen w-full flex items-center justify-center  px-4 lg:px-20 sm:-mt-10">
   {/* Main Content Wrapper */}
-  <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-start items-center z-0 -left-24 max-w-[85%] mx-auto">
+  <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-center items-center z-0 -left-24 max-w-[85%] mx-auto">
     <div className="relative z-10">
       <img
         src=".\image\last 3.gif"
