@@ -180,7 +180,7 @@ const HowItWorks = () => {
   </div>
 
   {/* Button Section */}
-  <div className="absolute bottom-36 md:bottom-24 lg:bottom-auto right-4 lg:right-14 mr-20 z-10 flex justify-end px-4 lg:px-0">
+  <div className="absolute bottom-36 md:bottom-24 lg:bottom-auto right-4 lg:right-8 mr-20 z-10 flex justify-end px-4 lg:px-0">
   <a href="/howitworks">
     <button className="py-3 px-5 w-[180px] md:w-[220px] lg:w-[290px] h-[40px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[14px] md:text-[18px] lg:text-[20px] font-[700] leading-[14px] mt-4 md:mt-8">
       GET CONSULTATION
