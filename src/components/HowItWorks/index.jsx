@@ -149,9 +149,9 @@ const HowItWorks = () => {
       </main>
       
   {/*last section */}
-       <div className="relative text-white h-screen w-full flex items-center justify-center sm:ml-10  left-4 lg:-left-12 px-4 lg:px-20 mt-6">
+       <div className="relative text-white h-screen w-full flex items-center justify-center sm:ml-10  -left-20 lg:-left-12 px-4 lg:px-20 mt-6">
   {/* Main Content Wrapper */}
-  <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-start items-center z-0 max-w-[85%] mx-auto">
+  <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-start items-center z-0 -left-24 max-w-[85%] mx-auto">
     <div className="relative z-10">
       <img
         src=".\image\last 3.gif"
@@ -180,7 +180,7 @@ const HowItWorks = () => {
   </div>
 
   {/* Button Section */}
-  <div className="absolute bottom-36 md:bottom-24 lg:bottom-auto right-4 lg:-right-5 mr-20 z-10 flex justify-end px-4 lg:px-0">
+  <div className="absolute bottom-36 md:bottom-24 lg:bottom-auto lg:-right-5 mr-28 z-10 flex justify-end px-4 lg:px-0">
   <a href="/howitworks">
     <button className="py-3 px-5 w-[180px] md:w-[220px] lg:w-[290px] h-[40px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[14px] md:text-[18px] lg:text-[20px] font-[700] leading-[14px] mt-4 md:mt-8">
       GET CONSULTATION
