@@ -453,7 +453,6 @@ return (<>
   {/* Development Process Section */}
  <section className="flex items-center justify-center min-h-screen bg-black -mt-10">  
   <div className="bg-black text-white py-16 mt-24">
-    {/* line break */}
     <div className="h-[5px] w-[69px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
       style={{
               border: "1px solid",
@@ -461,13 +460,15 @@ return (<>
               borderImageSlice: 1
            }}>
     </div>
+    <br/>
       <div className="text-center mb-12">
-        <h2 className=" font-MontserratRegular font-[400] text-[35px] leading-[55px] ">How development <br/>
-        <span className="font-[700] font-MontserratRegular text-[35px] leading-[55px] "> through Tree works</span></h2>
+        <h2 className=" font-MontserratRegular text-xl sm:text-2xl md:text-3xl lg:text-[35px] leading-snug md:leading-[60px] font-[400px] mb-4 md:mb-6">How development <br/>
+        <span className="font-MontserratRegular text-2xl sm:text-3xl md:text-4xl lg:text-[35px] leading-snug md:leading-[70px] font-bold mb-4 md:mb-6"> through Tree works</span></h2>
       </div>
       <Timeline/>
     </div>
   </section>
+  
 
 {/* Last Section */}
 <div className="relative text-white h-screen w-full flex items-center justify-center  px-4 lg:px-20 mt-6">
@@ -501,13 +502,13 @@ return (<>
   </div>
 
   {/* Button Section */}
-  <div className="absolute bottom-36 md:bottom-24 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-4 lg:px-0">
-    <a href="/howitworks">
-      <button className="py-3 px-5 w-[180px] md:w-[220px] lg:w-[290px] h-[40px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[14px] md:text-[18px] lg:text-[20px] font-[700] leading-[14px] mt-4 md:mt-8">
-        GET CONSULTATION
-      </button>
-    </a>
-  </div>
+  <div className="absolute bottom-36 sm:bottom-24 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-4 lg:px-0">
+  <a href="/howitworks">
+    <button className="py-3 px-5 w-[160px] sm:w-[180px] md:w-[220px] lg:w-[290px] h-[40px] sm:h-[45px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[12px] sm:text-[14px] md:text-[18px] lg:text-[20px] font-bold leading-[14px] sm:leading-[16px] md:leading-[20px] lg:leading-[24px] mt-4 sm:mt-6 md:mt-8">
+      GET CONSULTATION
+    </button>
+  </a>
+</div>
 </div>
 
 </>
