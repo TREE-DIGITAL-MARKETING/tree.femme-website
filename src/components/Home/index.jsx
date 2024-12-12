@@ -504,7 +504,7 @@ return (<>
   {/* Button Section */}
   <div className="absolute bottom-36 sm:bottom-24 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-4 lg:px-0">
   <a href="/howitworks">
-    <button className="py-3 px-5 w-[160px] sm:w-[200px] md:w-[220px] lg:w-[290px] h-[40px] sm:h-[45px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[12px] sm:text-[12px] md:text-[18px] lg:text-[20px] font-bold leading-[14px] sm:leading-[16px] md:leading-[20px] lg:leading-[24px] mt-4 sm:mt-6 md:mt-8">
+    <button className="py-3 px-5 w-[200px] sm:w-[200px] md:w-[220px] lg:w-[290px] h-[40px] sm:h-[45px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[12px] sm:text-[12px] md:text-[18px] lg:text-[20px] font-bold leading-[14px] sm:leading-[16px] md:leading-[20px] lg:leading-[24px] mt-4 sm:mt-6 md:mt-8 text-center">
       GET CONSULTATION
     </button>
   </a>
