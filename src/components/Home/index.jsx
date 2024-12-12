@@ -462,8 +462,8 @@ return (<>
     </div>
     <br/>
       <div className="text-center mb-12">
-        <h2 className=" font-MontserratRegular text-xl sm:text-2xl md:text-3xl lg:text-[35px] leading-snug md:leading-[60px] font-[400px] mb-4 md:mb-6">How development <br/>
-        <span className="font-MontserratRegular text-2xl sm:text-3xl md:text-4xl lg:text-[35px] leading-snug md:leading-[70px] font-bold mb-4 md:mb-6"> through Tree works</span></h2>
+        <h2 className="text-white text-[24px] sm:text-[28px] md:text-[32px] lg:text-[35px] font-MontserratRegular leading-[30px] sm:leading-[40px] md:leading-[45px] lg:leading-[55px] mb-4 sm:mb-6"><span className="font-[400]">How development </span><br/>
+        <span className="font-[700]"> through Tree works</span></h2>
       </div>
       <Timeline/>
     </div>
@@ -504,7 +504,7 @@ return (<>
   {/* Button Section */}
   <div className="absolute bottom-36 sm:bottom-24 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-4 lg:px-0">
   <a href="/howitworks">
-    <button className="py-3 px-5 w-[160px] sm:w-[180px] md:w-[220px] lg:w-[290px] h-[40px] sm:h-[45px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[12px] sm:text-[14px] md:text-[18px] lg:text-[20px] font-bold leading-[14px] sm:leading-[16px] md:leading-[20px] lg:leading-[24px] mt-4 sm:mt-6 md:mt-8">
+    <button className="py-3 px-5 w-[160px] sm:w-[200px] md:w-[220px] lg:w-[290px] h-[40px] sm:h-[45px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[12px] sm:text-[12px] md:text-[18px] lg:text-[20px] font-bold leading-[14px] sm:leading-[16px] md:leading-[20px] lg:leading-[24px] mt-4 sm:mt-6 md:mt-8">
       GET CONSULTATION
     </button>
   </a>
