@@ -74,7 +74,7 @@ return (<>
 
   <div className="text-center lg:text-left flex flex-col justify-center lg:w-[1100px]">
   <h1
-    className="font-futuraMedium text-[28px] sm:text-[36px] md:text-[44px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap"
+    className="font-futuraMedium text-[28px] sm:text-[44px] md:text-[44px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap"
     style={{
       background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
       WebkitBackgroundClip: 'text',
@@ -83,12 +83,12 @@ return (<>
     A Women-led Creative Team
   </h1>
  
-  <div className="grid grid-cols-1 lg:grid-cols-2 justify-start items-center">
-    <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%]">
-      <p className="whitespace-nowrap">Seamless fusion of Technology &</p>
-      <p className="whitespace-nowrap">Creativity</p>
-    </div>
+  <div className="hidden sm:grid grid-cols-1 lg:grid-cols-2 justify-start items-center">
+  <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%]">
+    <p className="whitespace-nowrap">Seamless fusion of Technology &</p>
+    <p className="whitespace-nowrap">Creativity</p>
   </div>
+</div>
   
 <br />
 <div className="font-futuraLight font-[300] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[32px] 2xl:text-[34px] leading-[28px] sm:leading-[32px] md:leading-[34px] lg:leading-[36.9px] xl:leading-[40px] 2xl:leading-[42px] text-white">
