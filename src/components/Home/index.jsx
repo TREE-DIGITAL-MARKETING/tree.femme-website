@@ -288,7 +288,7 @@ return (<>
 </section>
  
 {/*.......Get in Touch.........*/}
-<section id="getintouch" className="flex items-center justify-center min-h-screen bg-black -mt-10">
+<section id="getintouch" className="flex items-center justify-center min-h-screen sm:h-96 bg-black mt-10  px-3 ">
   <div
     className="flex flex-col md:flex-row items-center justify-center text-white text-center p-4 rounded-2xl shadow-lg w-full max-w-[1100px] h-auto"
     style={{
@@ -304,15 +304,14 @@ return (<>
     </div>
     <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-3">
       <h2
-        className="text-white font-futuraLight text-[20px] sm:text-[24px] md:text-[28px] lg:text-[34px] font-[500] leading-tight md:leading-[32px] lg:leading-[38px] text-center md:text-left"
-      >
+        className="text-white font-futuraLight break-words text-[54px] lg:text-[34px] sm:text-[24px] md:text-[58px] font-[500] leading-tight md:leading-[32px] lg:leading-[38px] text-center md:text-left" >
         To set new benchmarks and to bridge <br className="hidden md:block" /> the digital divide
       </h2>
       {/* Email Input and Button */}
-      <form onSubmit={handleSubmit} className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
-         <div className="relative w-[350px] sm:w-[300px] lg:w-[350px] h-[40px]">
-          <div className="absolute inset-0 rounded-full border-[0.78px] border-transparent bg-gradient-to-r from-[#4047c7] to-[#6929f4] border-sky-500">
-            <div className="absolute inset-[1px] bg-transparent rounded-full">
+      <form onSubmit={handleSubmit} className="flex flex-col md:flex-row bg-transparent items-center space-y-2 md:space-y-0 md:space-x-4 ">
+         <div className="px-2 relative w-[350px] bg-transparent  sm:w-[300px] lg:w-[350px] h-[40px]">
+          <div className="rounded-full border-[0.78px] bg-transparent  border-transparent bg-gradient-to-r from-[#4047c7] to-[#6929f4] border-sky-500">
+            <div className=" inset-[1px] bg-transparent rounded-full">
               <input
                 type="email"
                 name="email"
@@ -326,11 +325,13 @@ return (<>
           </div>
         </div>
         <button
-          className="w-[140px] sm:w-[160px] md:w-[180px] lg:w-[190px] h-[40px] rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] bg-black border border-purple-500 text-white flex items-center justify-center space-x-2"
-          type="submit">
-          <span>Get in touch</span>
-          <img src="./image/right-arrow.png" alt="right arrow" className="h-4 sm:h-5 lg:h-6 inline-block" />
-        </button>
+  className="w-[310px] h-[50px] sm:w-[160px] sm:h-[40px] md:w-[180px] md:h-[40px] lg:w-[190px] lg:h-[40px] rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] bg-black border border-purple-500 text-white flex items-center justify-center space-x-2"
+  type="submit"
+>
+  <span>Get in touch</span>
+  <img src="./image/right-arrow.png" alt="right arrow" className="h-5 sm:h-5 lg:h-6 inline-block" />
+</button>
+
       </form>
     </div>
   </div>
