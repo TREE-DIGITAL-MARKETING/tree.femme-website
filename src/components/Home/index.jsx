@@ -74,14 +74,19 @@ return (<>
 
   <div className="text-center lg:text-left flex flex-col justify-center lg:w-[1100px]">
   <h1
-    className="font-futuraMedium text-[28px] sm:text-[44px] md:text-[44px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap"
-    style={{
-      background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
-      WebkitBackgroundClip: 'text',
-      WebkitTextFillColor: 'transparent',
-    }} >
-    A Women-led Creative Team
-  </h1>
+  className="font-futuraMedium text-[36px] sm:text-[44px] md:text-[44px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap sm:whitespace-normal text-center sm:text-left"
+  style={{
+    background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent',
+  }}
+>
+  A Women-led{" "}
+  <span className="block sm:inline text-white sm:text-current">
+  Creative Team
+</span>
+</h1>
+
  
   <div className="hidden sm:grid grid-cols-1 lg:grid-cols-2 justify-start items-center">
   <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%]">
@@ -304,7 +309,7 @@ return (<>
     </div>
     <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-3">
       <h2
-        className="text-white font-futuraLight break-words text-[54px] lg:text-[34px] sm:text-[24px] md:text-[58px] font-[500] leading-tight md:leading-[32px] lg:leading-[38px] text-center md:text-left" >
+        className="text-white font-futuraLight break-words text-[54px] lg:text-[34px] sm:text-[24px] md:text-[28px] font-[500] leading-tight md:leading-[32px] lg:leading-[38px] text-center md:text-left" >
         To set new benchmarks and to bridge <br className="hidden md:block" /> the digital divide
       </h2>
       {/* Email Input and Button */}

@@ -29,7 +29,7 @@ function Footer() {
           Contact
         </a>
       </div>
-      <div className="flex space-x-4 mt-6 md:mt-0 mr-4 ">
+      <div className="flex space-x-4 mt-6 md:mt-0 ">
         <a href="https://www.linkedin.com/company/tree-information-technology/" className="flex justify-center items-center">
           <img src="./image/linkidinicon.png" className="w-10 h-10" alt="LinkedIn Icon" />
         </a>
