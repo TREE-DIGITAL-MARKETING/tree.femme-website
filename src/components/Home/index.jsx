@@ -288,13 +288,13 @@ return (<>
 </section>
 
 {/*.......Get in Touch.........*/}
-<section id="getintouch" className="flex items-center justify-center min-h-screen sm:h-96 bg-black mt-10  px-3 ">
-  <div
-    className="flex flex-col md:flex-row items-center justify-center text-white text-center p-4 rounded-2xl shadow-lg w-full max-w-[1100px] h-auto"
-    style={{
-      background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-    }}
-  > 
+<section id="getintouch" className="flex items-center justify-center min-h-screen sm:h-96 bg-black mt-10 px-3 ">
+<div
+  className="flex flex-col md:flex-row items-center justify-center text-white text-center p-4 rounded-2xl shadow-lg w-full max-w-[90%] sm:max-w-[80%] md:max-w-[1000px] h-auto"
+  style={{
+    background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+  }}
+>
     <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
       <img
         src="./image/getintouch.png"
@@ -328,9 +328,8 @@ return (<>
   type="submit">
   <span>Get in touch</span>
   <img src="./image/right-arrow.png" alt="right arrow" className="h-4 sm:h-5 lg:h-6 inline-block" />
-</button>
-
-      </form>
+</button>   
+</form>
     </div>
   </div>
   {isSubmitted && <Success />}
