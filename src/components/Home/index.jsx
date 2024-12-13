@@ -97,7 +97,7 @@ return (<>
   
 <br />
 <div className="font-futuraLight font-[300] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[32px] 2xl:text-[34px] leading-[28px] sm:leading-[32px] md:leading-[34px] lg:leading-[36.9px] xl:leading-[40px] 2xl:leading-[42px] text-white">
-  <p>Helming Future Tech . . .</p>
+  <p>Helming Future Tech<span class="hidden sm:inline">. . .</span></p>
 </div>
  
     <div className="flex justify-center lg:hidden mt-4">
