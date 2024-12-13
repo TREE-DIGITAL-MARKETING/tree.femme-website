@@ -324,12 +324,10 @@ return (<>
             </div>
           </div>
         </div>
-        <button
-  className="w-[310px] h-[50px] sm:w-[160px] sm:h-[40px] md:w-[180px] md:h-[40px] lg:w-[190px] lg:h-[40px] rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] bg-black border border-purple-500 text-white flex items-center justify-center space-x-2"
-  type="submit"
->
+        <button className="w-[200px] sm:w-[160px] md:w-[180px] lg:w-[190px] h-[40px] rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] bg-black border border-purple-500 text-white flex items-center justify-center space-x-2"
+  type="submit">
   <span>Get in touch</span>
-  <img src="./image/right-arrow.png" alt="right arrow" className="h-5 sm:h-5 lg:h-6 inline-block" />
+  <img src="./image/right-arrow.png" alt="right arrow" className="h-4 sm:h-5 lg:h-6 inline-block" />
 </button>
 
       </form>
