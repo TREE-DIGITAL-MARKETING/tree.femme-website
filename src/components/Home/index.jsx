@@ -309,7 +309,7 @@ return (<>
       </h2>
       {/* Email Input and Button */}
       <form onSubmit={handleSubmit} className="flex flex-col md:flex-row bg-transparent items-center space-y-2 md:space-y-0 md:space-x-4 ">
-      <div className="px-2 relative w-[350px] sm:w-[280px] md:w-[300px] lg:w-[350px] h-[40px]">
+      <div className="px-2 relative w-[280px] sm:w-[250px] md:w-[270px] lg:w-[350px] h-[40px]">
   <div className="rounded-full border-[0.78px] bg-transparent border-transparent bg-gradient-to-r from-[#4047c7] to-[#6929f4] border-sky-500">
     <div className="inset-[1px] bg-transparent rounded-full">
       <input
