@@ -97,10 +97,7 @@ return (<>
   
 <br />
 <div className="font-futuraLight font-[300] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[32px] 2xl:text-[34px] leading-[28px] sm:leading-[32px] md:leading-[34px] lg:leading-[36.9px] xl:leading-[40px] 2xl:leading-[42px] text-white">
- <p>
-  Helming Future Tech 
-  <span class="hidden sm:inline">. . .</span>
-</p>
+  <p>Helming Future Tech . . .</p>
 </div>
  
     <div className="flex justify-center lg:hidden mt-4">
@@ -140,12 +137,13 @@ return (<>
 </div>
 </section>
 
+{/* Ticker Section */}
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 -mt-10">
   <div className="flex items-center justify-center col-span-full">
     <img
       src=".\image\ticketsection.gif" 
       alt="Animated GIF description"
-      className="w-full h-auto max-w-md sm:max-w-2xl md:max-w-2xl lg:max-w-2xl xl:max-w-full "
+      className="w-full h-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-full "
     />
   </div>
 </div>
