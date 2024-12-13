@@ -294,7 +294,7 @@ return (<>
   style={{
     background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
   }}
->
+> 
     <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
       <img
         src="./image/getintouch.png"
@@ -312,15 +312,17 @@ return (<>
          <div className="px-2 relative w-[350px] bg-transparent  sm:w-[300px] lg:w-[350px] h-[40px]">
           <div className="rounded-full border-[0.78px] bg-transparent  border-transparent bg-gradient-to-r from-[#4047c7] to-[#6929f4] border-sky-500">
             <div className=" inset-[1px] bg-transparent rounded-full">
-              <input
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleInputChange}
-                placeholder="Enter your work email"
-                className="px-4 py-2 rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] border-none text-white placeholder-white outline-none w-full h-full bg-transparent bg-opacity-35"
-                required
-              />
+            <input
+  type="email"
+  name="email"
+  value={formData.email}
+  onChange={handleInputChange}
+  placeholder="Enter your work email"
+  className="px-4 py-2 rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] border-none text-white placeholder-white outline-none w-[85%] sm:w-[70%] md:w-[50%] max-w-[300px] bg-transparent bg-opacity-35"
+  required
+/>
+
+
             </div>
           </div>
         </div>
