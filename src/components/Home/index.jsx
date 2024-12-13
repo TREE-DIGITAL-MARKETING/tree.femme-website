@@ -74,20 +74,13 @@ return (<>
 
   <div className="text-center lg:text-left flex flex-col justify-center lg:w-[1100px]">
   <h1
-  className="font-futuraMedium text-[36px] sm:text-[60px] md:text-[60px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap sm:whitespace-normal text-center sm:text-left"
-  style={{
-    background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
-    WebkitBackgroundClip: 'text',
-    WebkitTextFillColor: 'transparent',
-  }}
+  className="font-futuraMedium text-[36px] sm:text-[60px] md:text-[60px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap sm:whitespace-normal text-center sm:text-left bg-gradient-to-r from-custom-blue via-custom-purple to-custom-pink text-transparent bg-clip-text"
 >
   A Women-led{" "}
-  <span className="block sm:inline text-white sm:text-current ">
-  Creative Team
-</span>
+  <span className="block sm:inline text-white sm:bg-transparent sm:text-transparent lg:text-transparent">
+    Creative Team
+  </span>
 </h1>
-
- 
   <div className="hidden sm:grid grid-cols-1 lg:grid-cols-2 justify-start items-center">
   <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%]">
     <p className="whitespace-nowrap">Seamless fusion of Technology &</p>
@@ -295,27 +288,31 @@ return (<>
 {/*.......Get in Touch.........*/}
 <section id="getintouch" className="flex items-center justify-center min-h-screen sm:h-96 bg-black mt-10 px-3 ">
 <div
-  className="flex flex-col md:flex-row items-center justify-center text-white text-center p-4 rounded-2xl shadow-lg w-full max-w-[90%] sm:max-w-[80%] md:max-w-[1000px] h-auto"
-  style={{
-    background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-  }}
+  className="flex flex-col md:flex-row items-center justify-center text-white text-center p-4 rounded-2xl shadow-lg w-full max-w-[90%] sm:max-w-[80%] md:max-w-[1000px] h-auto bg-custom-gradient"
 > 
     <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
-      <img
-        src="./image/getintouch.png"
-        alt="get in touch image"
-        className="w-[120px] sm:w-[140px] md:w-[160px] lg:w-[180px] h-auto"
-      />
+     {/* Image for larger screens */}
+  <img
+    src="./image/getintouch.png"
+    alt="get in touch image"
+    className="hidden sm:block w-[120px] sm:w-[140px] md:w-[160px] lg:w-[180px] h-auto"
+  />
+  {/* Image for smaller screens */}
+  <img
+    src="./image/getintouchsmallscreenimage.png"
+    alt="get in touch image mobile"
+    className="sm:hidden w-[200px] sm:w-[200px] md:w-[250px] lg:w-[20px] h-auto"
+  />
     </div>
     <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-3">
-      <h2
-        className="text-white font-futuraLight break-words text-[54px] lg:text-[34px] sm:text-[24px] md:text-[28px] font-[500] leading-tight md:leading-[32px] lg:leading-[38px] text-center md:text-left" >
-        To set new benchmarks and to bridge <br className="hidden md:block" /> the digital divide
-      </h2>
+    <p
+  className="text-white font-futuraLight break-words text-[48px] lg:text-[30px] sm:text-[20px] md:text-[24px] font-[400] leading-tight md:leading-[32px] lg:leading-[38px] text-center md:text-left">
+  To set new benchmarks and to bridge <br className="hidden md:block" /> the digital divide
+</p>
       {/* Email Input and Button */}
-      <form onSubmit={handleSubmit} className="flex flex-col md:flex-row bg-transparent items-center space-y-2 md:space-y-0 md:space-x-4 ">
-      <div className="px-2 relative w-[280px] sm:w-[250px] md:w-[270px] lg:w-[350px] h-[40px]">
-  <div className="rounded-full border-[0.78px] bg-transparent border-transparent bg-gradient-to-r from-[#4047c7] to-[#6929f4] border-sky-500">
+      <form onSubmit={handleSubmit} className="flex flex-col md:flex-row bg-transparent items-center space-y-2 md:space-y-0 md:space-x-4 -ml-3">
+      <div className="px-2 relative w-[280px] sm:w-[250px] md:w-[290px] lg:w-[350px] h-[40px]">
+  <div className="rounded-full border-[0.78px] bg-transparent border-transparent  bg-custom-gradient">
     <div className="inset-[1px] bg-transparent rounded-full">
       <input
         type="email"
@@ -330,7 +327,7 @@ return (<>
   </div>
 </div>
 
-        <button className="w-[200px] sm:w-[160px] md:w-[180px] lg:w-[190px] h-[40px] rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] bg-black border border-purple-500 text-white flex items-center justify-center space-x-2"
+ <button className="w-[200px] sm:w-[160px] md:w-[180px] lg:w-[190px] h-[40px] rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] bg-black border border-purple-500 text-white flex items-center justify-center space-x-2"
   type="submit">
   <span>Get in touch</span>
   <img src="./image/right-arrow.png" alt="right arrow" className="h-4 sm:h-5 lg:h-6 inline-block" />
@@ -341,8 +338,9 @@ return (<>
   {isSubmitted && <Success />}
 </section>
 
+<br/>
 {/* Our Creatives */}
-<section className="bg-black text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-20 xl:px-24 -mt-5">
+<section className="bg-black text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-20 xl:px-24 -mt-3">
   {/* Line Break */}
   <div className="h-[5px] w-[59px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto -mt-14"
     style={{

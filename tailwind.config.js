@@ -17,8 +17,17 @@ export default {
         interlight: ['Inter_18pt-Light', 'sans-serif'],
         robotoBold: ['Roboto-Bold', 'sans-serif'],
       },
+      colors: {
+        'custom-blue': '#00F0FF',
+        'custom-purple': '#5200FF',
+        'custom-pink': '#FF2DF7',
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
+      },
     },
   },
+  variants: {},
   plugins: [],
 }
    
