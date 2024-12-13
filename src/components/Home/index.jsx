@@ -74,7 +74,7 @@ return (<>
 
   <div className="text-center lg:text-left flex flex-col justify-center lg:w-[1100px]">
   <h1
-  className="font-futuraMedium text-[36px] sm:text-[44px] md:text-[44px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap sm:whitespace-normal text-center sm:text-left"
+  className="font-futuraMedium text-[36px] sm:text-[60px] md:text-[60px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap sm:whitespace-normal text-center sm:text-left"
   style={{
     background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
     WebkitBackgroundClip: 'text',
@@ -82,7 +82,7 @@ return (<>
   }}
 >
   A Women-led{" "}
-  <span className="block sm:inline text-white sm:text-current">
+  <span className="block sm:inline text-white sm:text-current ">
   Creative Team
 </span>
 </h1>
@@ -97,7 +97,10 @@ return (<>
   
 <br />
 <div className="font-futuraLight font-[300] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[32px] 2xl:text-[34px] leading-[28px] sm:leading-[32px] md:leading-[34px] lg:leading-[36.9px] xl:leading-[40px] 2xl:leading-[42px] text-white">
-  <p>Helming Future Tech . . .</p>
+ <p>
+  Helming Future Tech 
+  <span class="hidden sm:inline">. . .</span>
+</p>
 </div>
  
     <div className="flex justify-center lg:hidden mt-4">
@@ -137,13 +140,12 @@ return (<>
 </div>
 </section>
 
-{/* Ticker Section */}
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 -mt-10">
   <div className="flex items-center justify-center col-span-full">
     <img
       src=".\image\ticketsection.gif" 
       alt="Animated GIF description"
-      className="w-full h-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-full "
+      className="w-full h-auto max-w-md sm:max-w-2xl md:max-w-2xl lg:max-w-2xl xl:max-w-full "
     />
   </div>
 </div>
