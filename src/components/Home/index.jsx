@@ -286,7 +286,7 @@ return (<>
     </div>
   </div>
 </section>
- 
+
 {/*.......Get in Touch.........*/}
 <section id="getintouch" className="flex items-center justify-center min-h-screen sm:h-96 bg-black mt-10  px-3 ">
   <div
@@ -337,7 +337,7 @@ return (<>
 </section>
 
 {/* Our Creatives */}
-<section className="bg-black text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-20 xl:px-24 -mt-10">
+<section className="bg-black text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-20 xl:px-24 -mt-5">
   {/* Line Break */}
   <div className="h-[5px] w-[59px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto -mt-14"
     style={{
