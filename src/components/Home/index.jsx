@@ -318,9 +318,11 @@ return (<>
   value={formData.email}
   onChange={handleInputChange}
   placeholder="Enter your work email"
-  className="px-4 py-2 rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] border-none text-white placeholder-white outline-none w-[85%] sm:w-[70%] md:w-[50%] max-w-[300px] bg-transparent bg-opacity-35"
+  className="px-4 py-2 rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] border-none text-white placeholder-white outline-none 
+             w-[70%] sm:w-[40%] md:w-[50%] max-w-[300px] bg-transparent bg-opacity-35"
   required
 />
+
 
 
             </div>
