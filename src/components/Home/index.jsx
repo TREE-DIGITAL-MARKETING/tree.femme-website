@@ -494,7 +494,6 @@ return (<>
         </p>
       </div>
     </div>
-
     {/* Button Section */}
     <div className="flex justify-center lg:justify-end">
       <a href="/howitworks">

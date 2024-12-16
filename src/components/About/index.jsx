@@ -94,23 +94,17 @@ const About = () => {
 
 
 {/* Last Section */}
-<div className="relative text-white h-screen w-full flex items-center justify-center  px-4 lg:px-20 -mt-6">
-  {/* Main Content Wrapper */}
-  <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-start items-center z-0 max-w-[85%] mx-auto">
-    <div className="relative z-10">
-      <img
-        src=".\image\last 3.gif"
-        alt="last session img"
-        className="w-[300px] md:w-[400px] lg:w-[500px] h-[200px] md:h-[250px] lg:h-[300px]"
-        style={{
-          border: 'none',
-          boxShadow: 'none',
-          mixBlendMode: 'color-burn',
-          maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
-          WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
-        }}
-      />
-      {/* Text Section */}
+{/* Last Section */}
+<div className="relative text-white h-screen w-full flex items-center justify-center px-4 lg:px-20 -mt-4">
+  {/* Main Grid Wrapper */}
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-items-center max-w-[85%] mx-auto">
+    {/* Image Section */}
+    <div className="relative">
+    <img
+  src=".\image\round.gif"
+  alt="last session img"/>
+
+      {/* Overlay Text */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:px-6">
         <h1 className="text-[22px] md:text-[36px] lg:text-[40px] font-[700] leading-tight md:leading-[48px] lg:leading-[52.16px] font-futuraBold">
           DISCUSS A PROJECT
@@ -122,19 +116,16 @@ const About = () => {
         </p>
       </div>
     </div>
+    {/* Button Section */}
+    <div className="flex justify-center lg:justify-end">
+      <a href="/howitworks">
+        <button className="py-3 px-5 w-[200px] sm:w-[200px] md:w-[220px] lg:w-[290px] h-[40px] sm:h-[45px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[12px] sm:text-[12px] md:text-[18px] lg:text-[20px] font-bold leading-[14px] sm:leading-[16px] md:leading-[20px] lg:leading-[24px] mt-4 sm:mt-6 md:mt-8 text-center">
+          GET CONSULTATION
+        </button>
+      </a>
+    </div>
   </div>
-
-  {/* Button Section */}
- {/* Button Section */}
- <div className="absolute bottom-36 sm:bottom-24 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-4 lg:px-0">
-  <a href="/howitworks">
-    <button className="py-3 px-5 w-[200px] sm:w-[200px] md:w-[220px] lg:w-[290px] h-[40px] sm:h-[45px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[12px] sm:text-[12px] md:text-[18px] lg:text-[20px] font-bold leading-[14px] sm:leading-[16px] md:leading-[20px] lg:leading-[24px] mt-4 sm:mt-6 md:mt-8 text-center">
-      GET CONSULTATION
-    </button>
-  </a>
 </div>
-</div>
-
 </div>                                                                                                                                               
     </>
   );
