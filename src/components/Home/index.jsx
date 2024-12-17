@@ -235,7 +235,7 @@ return (<>
     >
       <div className="flex justify-center">
         <img
-          src="./image/treenewlogo.png"
+          src="./image/logoflip.gif"
           alt="Tree Logo"
           className="w-[219px] h-[152px] object-cover rounded-[9px]"
         />
