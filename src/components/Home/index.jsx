@@ -52,6 +52,12 @@ const Home = () => {
         element.scrollIntoView({ behavior: 'smooth' });
       }
     }
+    if (window.location.hash === '#getintouch') {
+      const element = document.getElementById('getintouch');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   }, []);
 return (<>
   <meta charSet="UTF-8" />
