@@ -68,89 +68,93 @@ const HowItWorks = () => {
 </div>
 
       {/* Main Section */}
-      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto md:mr-40 lg:mr-40 xl:mr-40 -mt-16">
-        <div className="w-full">
-          <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-medium leading-tight font-futuraMedium mb-2">
-            Amplify your market reach,{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-blue-700 to-pink-800">
-              let's grow digitally
-            </span>
-          </h1>
-        </div>
+      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl ml-0 md:ml-10 lg:ml-10 xl:ml-52 -mt-16">
+  <div className="w-full">
+    <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-medium leading-tight font-futuraMedium mb-2">
+      Amplify your market reach,{" "}
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-blue-700 to-pink-800">
+        let's grow digitally
+      </span>
+    </h1>
+  </div>
 
-        <p className="font-futuraLight text-base sm:text-lg md:text-xl lg:text-2xl mt-4 mb-4 max-w-full lg:max-w-3xl">
-          Thanks for your interest in working with us. Please complete the details below, and we'll get back to you within one business day.
-        </p>
+  <p className="font-futuraLight text-base sm:text-lg md:text-xl lg:text-2xl mt-4 mb-4 max-w-full lg:max-w-3xl">
+    Thanks for your interest in working with us. Please complete the details below, and we'll get back to you within one business day.
+  </p>
 
-        {/* Contact Form */}
-        <form className="w-full max-w-3xl mt-10 relative z-10" onSubmit={handleSubmit}>
-          <p className="mb-6 -mt-6 text-lg font-medium text-gray-400">Required</p>
+  {/* Contact Form */}
+  <form className="w-full max-w-3xl mt-10 relative z-10" onSubmit={handleSubmit}>
+    <p className="mb-6 -mt-6 text-lg font-medium text-gray-400">Required</p>
 
-          <div className="mb-6">
-            <label className="block mb-2 text-lg font-medium text-gray-200">
-              Name
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
-            </label>
-            <input
-              className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleInputChange}
-              required
-            />
-          </div>
+    <div className="mb-6">
+      <label className="block mb-2 text-lg font-medium text-gray-200">
+        Name
+        <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
+      </label>
+      <input
+        className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
+        type="text"
+        name="name"
+        value={formData.name}
+        onChange={handleInputChange}
+        required
+      />
+    </div>
 
-          <div className="mb-6">
-            <label className="block mb-2 text-lg font-medium text-gray-200">
-              Phone No
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
-            </label>
-            <input
-              className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
-              type="tel"
-              name="phone"
-              value={formData.phone}
-              onChange={handleInputChange}
-              required
-            />
-          </div>
+    <div className="mb-6">
+      <label className="block mb-2 text-lg font-medium text-gray-200">
+        Phone No
+        <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
+      </label>
+      <input
+        className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
+        type="tel"
+        name="phone"
+        value={formData.phone}
+        onChange={handleInputChange}
+        required
+      />
+    </div>
 
-          <div className="mb-6">
-            <label className="block mb-2 text-lg font-medium text-gray-200">
-              Email
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
-            </label>
-            <input
-              className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleInputChange}
-              required
-            />
-          </div>
+    <div className="mb-6">
+      <label className="block mb-2 text-lg font-medium text-gray-200">
+        Email
+        <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
+      </label>
+      <input
+        className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
+        type="email"
+        name="email"
+        value={formData.email}
+        onChange={handleInputChange}
+        required
+      />
+    </div>
 
-          <div className="mb-8">
-            <label className="block mb-2 text-lg font-medium text-gray-200">
-              Message
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
-            </label>
-            <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleInputChange}
-              className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
-              rows="3"
-              required
-            />
-          </div>
+    <div className="mb-8">
+      <label className="block mb-2 text-lg font-medium text-gray-200">
+        Message
+        <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-pink-800"> *</span>
+      </label>
+      <textarea
+        name="message"
+        value={formData.message}
+        onChange={handleInputChange}
+        className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
+        rows="3"
+        required
+      />
+    </div>
 
-          <button type="submit" className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white py-4 px-10 rounded-md text-lg font-semibold">
-            SUBMIT
-          </button>
-        </form>
-      </main>
+    <button
+      type="submit"
+      className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white py-4 px-10 rounded-md text-lg font-semibold"
+    >
+      SUBMIT
+    </button>
+  </form>
+</main>
+
       
 {/* Last Section */}
 <div className="relative text-white h-screen w-full flex items-center justify-center px-4 lg:px-20 -mt-4">
