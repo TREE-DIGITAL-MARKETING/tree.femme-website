@@ -48,8 +48,13 @@ const HowItWorks = () => {
     return <Success />;
   }
 
-  return (
+  return ( 
     <div className="relative bg-black text-white px-4 lg:px-16 py-10 ">
+  <meta charSet="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="googleb40e98681cb363d6.html" />
+  <title>How It's Work</title>
+     
       
       {/* WhatsApp Floating Icon */}
       <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[60px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] -mr-5 z-10">
