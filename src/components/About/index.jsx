@@ -6,7 +6,7 @@ const About = () => {
       <div>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="google-site-verification" content="googleb40e98681cb363d6.html" />
+        <meta name="google-site-verification" content="OYDP6yGpHq8aVPQSTZuKzFCenb5_QevXVCBUH_xTb3I" />
         <title>About Us</title>
  
   {/* Hero Section */}
