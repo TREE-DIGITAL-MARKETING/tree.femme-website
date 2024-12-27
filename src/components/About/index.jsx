@@ -17,7 +17,7 @@ const About = () => {
   style={{
     backgroundImage: 'url(./image/Aboutbg.png)', 
   }}
->npm 
+>
 
     {/* WhatsApp Floating Icon */}
     <div className="fixed right-4 bottom-8 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[50px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[50px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] z-10">
