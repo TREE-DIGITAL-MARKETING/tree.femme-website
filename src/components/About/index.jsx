@@ -12,12 +12,13 @@ const About = () => {
   <section
   className="relative flex flex-col items-center justify-center text-center py-5 sm:py-10 md:py-20 overflow-hidden w-full max-w-[1440px] mb-32"
 >
-  <div
-    className="relative z-20 flex flex-col items-center px-4 sm:px-8 bg-cover bg-center bg-blend-overlay w-full h-auto sm:h-[85vh] md:h-[90vh] -mt-8"
-    style={{
-      backgroundImage: 'url(./image/Aboutbg.png)', 
-    }}
-  >
+<div
+  className="relative z-20 flex flex-col items-center px-4 sm:px-8 bg-cover bg-center bg-blend-overlay w-full h-auto sm:h-[85vh] md:h-[90vh] -mt-8 lg:w-screen"
+  style={{
+    backgroundImage: 'url(./image/Aboutbg.png)', 
+  }}
+>npm 
+
     {/* WhatsApp Floating Icon */}
     <div className="fixed right-4 bottom-8 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[50px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[50px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] z-10">
       <a href="https://wa.me/9074429360">
