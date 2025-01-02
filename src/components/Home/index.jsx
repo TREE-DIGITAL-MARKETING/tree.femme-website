@@ -98,6 +98,15 @@ return (<>
 <div className="font-futuraLight font-[300] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[32px] 2xl:text-[34px] leading-[28px] sm:leading-[32px] md:leading-[34px] lg:leading-[36.9px] xl:leading-[40px] 2xl:leading-[42px] text-white">
   <p>Helming Future Tech<span class="hidden sm:inline">. . .</span></p>
 </div>
+ 
+    <div className="flex justify-center lg:hidden mt-4">
+      <img 
+        src="./public/image/shape.gif" 
+        alt="right side image" 
+        className="w-[200px] sm:w-[300px] md:w-[350px] max-w-full h-auto"
+      />
+    </div>
+
     <div
   className="hidden sm:block h-[0.5px] w-full sm:w-[200px] md:w-[450px] lg:w-[615px] xl:w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
   style={{
@@ -118,7 +127,7 @@ return (<>
 
 </a>
 </div>
-  <div className="hidden lg:flex justify-center lg:justify-end">
+<div className="hidden lg:flex justify-center lg:justify-end">
   <img 
     src="./image/shape.gif" 
     alt="right side image" 
