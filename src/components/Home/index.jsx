@@ -489,7 +489,7 @@ return (<>
     <div className="relative">
     <img
   src=".\image\round.gif"
-  alt="last session img" className="w-52"/>
+  alt="last session img"/>
 
       {/* Overlay Text */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:px-6">
