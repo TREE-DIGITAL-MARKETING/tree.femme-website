@@ -302,13 +302,13 @@ return (<>
     <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
      {/* Image for larger screens */}
   <img
-    src="./image/getintouch.png"
+    src="./image/pink cube.gif"
     alt="get in touch image"
     className="hidden sm:block w-[120px] sm:w-[140px] md:w-[160px] lg:w-[180px] h-auto"
   />
   {/* Image for smaller screens */}
   <img
-    src="./image/getintouchsmallscreenimage.png"
+    src="./image/pink cube.gif"
     alt="get in touch image mobile"
     className="sm:hidden w-[200px] sm:w-[200px] md:w-[250px] lg:w-[20px] h-auto"
   />
