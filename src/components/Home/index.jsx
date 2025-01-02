@@ -101,7 +101,7 @@ return (<>
  
     <div className="flex justify-center lg:hidden mt-4">
       <img 
-        src="./public/image/shape.gif" 
+        src="./image/shape.gif" 
         alt="right side image" 
         className="w-[200px] sm:w-[300px] md:w-[350px] max-w-full h-auto"
       />
