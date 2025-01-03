@@ -101,22 +101,24 @@ const About = () => {
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-items-center max-w-[85%] mx-auto">
     {/* Image Section */}
     <div className="relative">
-    <img
-  src=".\image\round.gif"
-  alt="last session img"/>
+  <img
+    src="./image/round.gif"
+    alt="last session img"
+    className="w-full sm:w-4/5 md:w-2/3 lg:w-2/3 xl:w-2/3 mx-auto"
+  />
+  {/* Overlay Text */}
+  <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:px-6">
+    <h1 className="text-[22px] md:text-[36px] lg:text-[40px] font-[700] leading-tight md:leading-[48px] lg:leading-[52.16px] font-futuraBold">
+      DISCUSS A PROJECT
+    </h1>
+    <p className="font-futuraLightFont text-[14px] md:text-[20px] lg:text-[26px] leading-snug md:leading-[30px] lg:leading-[33.62px] mt-4">
+      We know how to mold your project
+      <br />
+      Let's put the words into action
+    </p>
+  </div>
+</div>
 
-      {/* Overlay Text */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:px-6">
-        <h1 className="text-[22px] md:text-[36px] lg:text-[40px] font-[700] leading-tight md:leading-[48px] lg:leading-[52.16px] font-futuraBold">
-          DISCUSS A PROJECT
-        </h1>
-        <p className="font-futuraLightFont text-[14px] md:text-[20px] lg:text-[26px] leading-snug md:leading-[30px] lg:leading-[33.62px] mt-4">
-          We know how to mold your project
-          <br />
-          Let's put the words into action
-        </p>
-      </div>
-    </div>
     {/* Button Section */}
     <div className="flex justify-center lg:justify-end">
       <a href="/howitworks">
