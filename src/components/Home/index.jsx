@@ -207,7 +207,7 @@ return (<>
 >
   <div className="flex justify-center mb-4">
     <img
-      src="./image/card2.png"
+      src="./image/card3.png"
       alt="Digital Marketing Icon"
       className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
     />
@@ -226,7 +226,7 @@ return (<>
 >
   <div className="flex justify-center mb-4">
     <img
-      src="./image/card2.png"
+      src="./image/card4.png"
       alt="Digital Marketing Icon"
       className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
     />
@@ -245,7 +245,7 @@ return (<>
 >
   <div className="flex justify-center mb-4">
     <img
-      src="./image/card2.png"
+      src="./image/card5.png"
       alt="Digital Marketing Icon"
       className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
     />
