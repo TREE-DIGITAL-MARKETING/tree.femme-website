@@ -49,9 +49,12 @@ const HowItWorks = () => {
     return <Success />;
   }
 
-  <Helmet>
-<meta name="google-site-verification" content="OYDP6yGpHq8aVPQSTZuKzFCenb5_QevXVCBUH_xTb3I" />
-</Helmet>
+     <Helmet>
+      <meta charSet="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="google-site-verification" content="OYDP6yGpHq8aVPQSTZuKzFCenb5_QevXVCBUH_xTb3I" />
+      <title>How It Works </title>
+      </Helmet>
   return (
     <div className="relative bg-black text-white px-4 lg:px-16 py-10 ">
       
