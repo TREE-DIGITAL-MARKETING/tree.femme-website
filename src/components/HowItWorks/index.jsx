@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import Success from "../ExternalComponents/Success";
+import { Helmet } from "react-helmet";
 
 const formdataFormat = {
   heading: "tree page enquiry",
@@ -48,6 +49,9 @@ const HowItWorks = () => {
     return <Success />;
   }
 
+  <Helmet>
+<meta name="google-site-verification" content="OYDP6yGpHq8aVPQSTZuKzFCenb5_QevXVCBUH_xTb3I" />
+</Helmet>
   return (
     <div className="relative bg-black text-white px-4 lg:px-16 py-10 ">
       
