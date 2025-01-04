@@ -166,89 +166,108 @@ return (<>
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8 px-4 lg:px-8">
     {/* Card 1 */}
     <div
-      className="w-full max-w-[300px] h-[200px] mx-auto p-4 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
-      style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
-    >
-      <div className="flex justify-center mb-4">
-        <img src="./image/card1.png" alt="Web App Development Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[16px] sm:text-[18px] font-[600] font-MontserratRegular text-center">
-        Website &amp; Web App <span className="block">Development</span>
-      </h3>
-      <p className="mt-4 text-[14px] leading-[16px] text-center font-montserratLight whitespace-nowrap">
-        Top-notch Web Designs to make your<br />Brand unique
-      </p>
-    </div>
+  className="w-full max-w-[300px] md:max-w-[350px] lg:max-w-[400px] h-[200px] md:h-[250px] lg:h-[300px] mx-auto p-4 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
+  style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
+>
+  <div className="flex justify-center mb-4">
+    <img src="./image/card1.png" alt="Web App Development Icon" className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20" />
+  </div>
+  <h3 className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-[600] font-MontserratRegular text-center">
+    Website &amp; Web App <span className="block">Development</span>
+  </h3>
+  <p className="mt-4 text-[14px] leading-[16px] md:text-[16px] md:leading-[18px] lg:text-[18px] lg:leading-[20px] text-center font-montserratLight">
+    Top-notch Web Designs to make your<br />Brand unique
+  </p>
+</div>
+
     {/* Card 2 */}
     <div
-      className="w-full max-w-[300px] h-[200px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
-      style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
-    >
-      <div className="flex justify-center mb-4">
-        <img src="./image/card2.png" alt="Digital Marketing Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[16px] sm:text-18px] font-[600] font-MontserratRegular text-center whitespace-nowrap">
-  Digital Marketing &amp; Marketing <span className="block">Research Service</span>
-</h3>
-      <p className="mt-4 text-[14px] leading-[16px] text-center font-montserratLight">
-        Strengthen Customer Relationship
-      </p>
-    </div>
+  className="w-full max-w-[300px] md:max-w-[350px] lg:max-w-[400px] h-[200px] md:h-[250px] lg:h-[300px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
+  style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
+>
+  <div className="flex justify-center mb-4">
+    <img
+      src="./image/card2.png"
+      alt="Digital Marketing Icon"
+      className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
+    />
+  </div>
+  <h3 className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-[600] font-MontserratRegular text-center whitespace-nowrap">
+    Digital Marketing &amp; Marketing <span className="block">Research Service</span>
+  </h3>
+  <p className="mt-4 text-[14px] leading-[16px] md:text-[16px] md:leading-[18px] lg:text-[18px] lg:leading-[22px] text-center font-montserratLight">
+    Strengthen Customer Relationship
+  </p>
+</div>
+
     {/* Card 3 */}
     <div
-      className="w-full max-w-[300px] h-[200px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
-      style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
-    >
-      <div className="flex justify-center mb-4">
-        <img src="./image/card3.png" alt="Graphic Designing Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[16px] sm:text-[18px] font-[600] text-center font-MontserratRegular">
-        Creative Graphic <span className="block">Designing</span> 
-      </h3>
-      <p className="mt-4 text-[14px] leading-[16px] text-center font-montserratLight">
-        Showcase your Brand's personality
-      </p>
-    </div>
+  className="w-full max-w-[300px] md:max-w-[350px] lg:max-w-[400px] h-[200px] md:h-[250px] lg:h-[300px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
+  style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
+>
+  <div className="flex justify-center mb-4">
+    <img
+      src="./image/card2.png"
+      alt="Digital Marketing Icon"
+      className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
+    />
+  </div>
+  <h3 className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-[600] font-MontserratRegular text-center whitespace-nowrap">
+    Creative Graphic <span className="block">Designing</span>
+  </h3>
+  <p className="mt-4 text-[14px] leading-[16px] md:text-[16px] md:leading-[18px] lg:text-[18px] lg:leading-[22px] text-center font-montserratLight">
+    Showcase your Brand's personality
+  </p>
 </div>
-<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8 px-4 lg:px-8">
     {/* Card 4 */}
     <div
-      className="w-full max-w-[300px] h-[200px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
-      style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
-    >
-      <div className="flex justify-center mb-4">
-        <img src="./image/card4.png" alt="Video Ads Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[16px] sm:text-[18px] font-[600] text-center font-MontserratRegular">
-        Motion Graphics &amp; Video <span className="block"> Ads </span>
-      </h3>
-      <p className="mt-4 text-[14px] leading-[16px] text-center font-montserratLight">Grab attention instantly</p>
-    </div>
+  className="w-full max-w-[300px] md:max-w-[350px] lg:max-w-[400px] h-[200px] md:h-[250px] lg:h-[300px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
+  style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
+>
+  <div className="flex justify-center mb-4">
+    <img
+      src="./image/card2.png"
+      alt="Digital Marketing Icon"
+      className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
+    />
+  </div>
+  <h3 className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-[600] font-MontserratRegular text-center whitespace-nowrap">
+    Motion Graphics &amp; Video <span className="block"> Ads </span>
+  </h3>
+  <p className="mt-4 text-[14px] leading-[16px] md:text-[16px] md:leading-[18px] lg:text-[18px] lg:leading-[22px] text-center font-montserratLight">
+    Grab attention instantly</p>
+</div>
 
     {/* Card 5 */}
     <div
-      className=" w-full max-w-[300px] h-[200px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
-      style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
-    >
-      <div className="flex justify-center mb-4">
-        <img src="./image/card5.png" alt="iOS and Android Development Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[16px] sm:text-[18px] font-[600] text-center font-MontserratRegular">
-        iOS and Android <span className="block">Development</span>
-      </h3>
-      <p className="mt-4 text-[14px] leading-[16px] text-center font-montserratLight">Reach a large global market</p>
-    </div>
+  className="w-full max-w-[300px] md:max-w-[350px] lg:max-w-[400px] h-[200px] md:h-[250px] lg:h-[300px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
+  style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
+>
+  <div className="flex justify-center mb-4">
+    <img
+      src="./image/card2.png"
+      alt="Digital Marketing Icon"
+      className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
+    />
+  </div>
+  <h3 className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-[600] font-MontserratRegular text-center whitespace-nowrap">
+    iOS and Android <span className="block"> Development </span>
+  </h3>
+  <p className="mt-4 text-[14px] leading-[16px] md:text-[16px] md:leading-[18px] lg:text-[18px] lg:leading-[22px] text-center font-montserratLight">
+    Reach a large global market </p>
+</div>
     {/* Logo Card */}
     <div
-      className="w-full max-w-[300px] h-[200px] mx-auto p-6 rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden"
-    >
-      <div className="flex justify-center">
-        <img
-          src="./image/logoflip.gif"
-          alt="Tree Logo"
-          className="w-[219px] h-[152px] object-cover rounded-[9px]"
-        />
-      </div>
+  className="w-full max-w-[300px] md:max-w-[350px] lg:max-w-[400px] h-[200px] md:h-[250px] lg:h-[300px] mx-auto p-6 md:p-8 lg:p-10 rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden"
+>
+  <div className="flex justify-center">
+    <img
+      src="./image/logoflip.gif"
+      alt="Tree Logo"
+      className="w-[219px] h-[152px] md:w-[250px] md:h-[175px] lg:w-[300px] lg:h-[200px] object-cover rounded-[9px]"
+    />
+  </div>
+
     </div>
   </div>
 </section>
@@ -449,11 +468,12 @@ return (<>
 
       {/* Author */}
       <div className="flex items-center space-x-4 justify-end mt-2">
-        <img src="./image/ShenaShaji.png" alt="Shena Shaji" className="w-10 sm:w-12 h-10 sm:h-12 rounded-full" />
         <div>
-          <p className="font-MontserratRegular font-[400] text-[14px] sm:text-[16px] leading-[18px] sm:leading-[20px]">SHENA SHAJI</p>
+          <p className="font-MontserratRegular font-[400] text-[14px] sm:text-[16px] leading-[18px] sm:leading-[20px] text-right ">SHENA SHAJI</p>
           <p className="text-[12px] sm:text-[13px] font-[400] font-MontserratRegular leading-[14px] sm:leading-[16px]">INTERNATIONAL CLIENT MANAGER</p>
         </div>
+        <img src="./image/ShenaShaji.png" alt="Shena Shaji" className="w-10 sm:w-12 h-10 sm:h-12 rounded-full" />
+       
        </div>
      </div>
    </div>
