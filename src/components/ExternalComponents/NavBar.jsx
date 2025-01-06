@@ -211,7 +211,7 @@ function Navbar() {
   {/* Contact Details */}
   <div className="mt-12 text-center mb-12">
     <p className="text-gray-300 text-[14px] font-MontserratRegular mb-2">+91-9074429360</p>
-    <p className="text-gray-300 text-[14px] font-MontserratRegular">treedigitalmarketing2024@gmail.com</p>
+    <p className="text-gray-300 text-[14px] font-MontserratRegular">info@tree.it.com</p>
   </div>
 
   {/* Separator */}

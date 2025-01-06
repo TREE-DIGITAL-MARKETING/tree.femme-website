@@ -78,15 +78,17 @@ return (<>
   </a>
 </div>
 
-  <div className="text-center lg:text-left flex flex-col justify-center lg:w-[1100px]">
+<div className="text-center lg:text-left flex flex-col justify-center lg:w-[1100px] pl-4 lg:pl-28">
   <h1
-  className="font-futuraMedium text-[36px] sm:text-[60px] md:text-[60px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap sm:whitespace-normal text-center sm:text-left bg-gradient-to-r from-custom-blue via-custom-purple to-custom-pink text-transparent bg-clip-text"
->
-  A Women-led{" "}
-  <span className="block sm:inline text-white sm:bg-transparent sm:text-transparent lg:text-transparent">
-    Creative Team
-  </span>
-</h1>
+    className="font-futuraMedium text-[36px] sm:text-[60px] md:text-[60px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap sm:whitespace-normal text-center sm:text-left bg-gradient-to-r from-custom-blue via-custom-purple to-custom-pink text-transparent bg-clip-text"
+  >
+    A Women-led{" "}
+    <span className="block sm:inline text-white sm:bg-transparent sm:text-transparent lg:text-transparent">
+      Creative Team
+    </span>
+  </h1>
+
+
   <div className="hidden sm:grid grid-cols-1 lg:grid-cols-2 justify-start items-center">
   <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%]">
     <p className="whitespace-nowrap">Seamless fusion of Technology &</p>
