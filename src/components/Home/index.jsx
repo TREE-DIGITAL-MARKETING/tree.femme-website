@@ -77,25 +77,25 @@ return (<>
     </a>
   </div>
 
-  <div className="text-center lg:text-left flex flex-col justify-center lg:w-[1100px] pl-6 lg:pl-16">
+  {/* Text Content */}
+  <div className="text-center lg:text-left flex flex-col justify-center items-center sm:items-center lg:items-start mx-auto lg:mx-0">
     <h1
-      className="font-futuraMedium text-[36px] sm:text-[60px] md:text-[60px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap sm:whitespace-normal text-center sm:text-left bg-gradient-to-r from-custom-blue via-custom-purple to-custom-pink text-transparent bg-clip-text"
+      className="font-futuraMedium text-[36px] sm:text-[48px] md:text-[52px] lg:text-[52px] xl:text-[60px] font-[500] leading-tight lg:leading-[65.58px] mb-4 bg-gradient-to-r from-custom-blue via-custom-purple to-custom-pink text-transparent bg-clip-text whitespace-nowrap"
     >
       A Women-led{" "}
-      <span className="block sm:inline text-white sm:bg-transparent sm:text-transparent lg:text-transparent">
+      <span className="block sm:inline text-white sm:bg-transparent sm:text-transparent lg:text-transparent whitespace-nowrap">
         Creative Team
       </span>
     </h1>
 
-    <div className="hidden sm:grid grid-cols-1 lg:grid-cols-2 justify-start items-center">
-      <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%]">
-        <p className="whitespace-nowrap">Seamless fusion of Technology &</p>
-        <p className="whitespace-nowrap">Creativity</p>
+    <div className="hidden sm:grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:justify-start">
+      <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%] whitespace-nowrap">
+        <p>Seamless fusion of Technology &</p>
+        <p>Creativity</p>
       </div>
     </div>
 
-    <br />
-    <div className="font-futuraLight font-[300] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[32px] 2xl:text-[34px] leading-[28px] sm:leading-[32px] md:leading-[34px] lg:leading-[36.9px] xl:leading-[40px] 2xl:leading-[42px] text-white">
+    <div className="font-futuraLight font-[300] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[32px] 2xl:text-[34px] leading-[28px] sm:leading-[32px] md:leading-[34px] lg:leading-[36.9px] xl:leading-[40px] 2xl:leading-[42px] text-white mt-4">
       <p>Helming Future Tech<span className="hidden sm:inline">. . .</span></p>
     </div>
 
@@ -116,7 +116,6 @@ return (<>
       }}
     ></div>
 
-    <br />
     <a href="/howitworks">
       <button className="inline-flex items-center justify-center px-4 py-2 sm:px-6 sm:py-3 w-[250px] sm:w-[219px] h-[50px] sm:h-[45.82px] rounded-full font-montserratLight text-[16px] sm:text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition mt-4 lg:mt-4">
         <span className="flex items-center">
@@ -127,6 +126,7 @@ return (<>
     </a>
   </div>
 
+  {/* Right-Side Image */}
   <div className="hidden lg:flex justify-center lg:justify-end">
     <img
       src="./image/shape.gif"
@@ -139,6 +139,7 @@ return (<>
     />
   </div>
 </section>
+
 
 
 {/* Ticker Section */}
@@ -177,8 +178,9 @@ return (<>
   <h3 className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-[600] font-MontserratRegular text-center">
     Website &amp; Web App <span className="block">Development</span>
   </h3>
-  <p className="mt-4 text-[14px] leading-[16px] md:text-[16px] md:leading-[18px] lg:text-[18px] lg:leading-[20px] text-center font-montserratLight whitespace-nowrap">
-    Top-notch Web Designs to make your<br />Brand unique
+  <p className="mt-4 text-[14px] leading-[16px] md:text-[16px] md:leading-[18px] lg:text-[18px] lg:leading-[20px] text-center font-montserratLight whitespace-nowrap">Top-notch Web Designs to make your
+    <br />
+    Brand unique
   </p>
 </div>
 
