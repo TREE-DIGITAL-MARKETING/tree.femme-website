@@ -70,7 +70,7 @@ const HowItWorks = () => {
 </div>
 
       {/* Main Section */}
-      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl ml-0 md:ml-10 lg:ml-10 xl:ml-52 -mt-16">
+      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl ml-4 md:ml-12 lg:ml-20 xl:ml-96 -mt-16">
   <div className="w-full">
     <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-medium leading-tight font-futuraMedium mb-2">
       Amplify your market reach,{" "}
@@ -156,6 +156,7 @@ const HowItWorks = () => {
     </button>
   </form>
 </main>
+
 
       
 {/* Last Section */}

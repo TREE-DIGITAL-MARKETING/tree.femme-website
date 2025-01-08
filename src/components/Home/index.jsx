@@ -65,81 +65,81 @@ return (<>
   <title>Tree information Technology</title>
 
  {/* Hero Section */}
- <section className="px-4 sm:px-8 md:px-12 lg:pl-36 bg-black py-8 sm:py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
-   
-    {/* WhatsApp Floating Icon */}
-    <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[60px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] -mr-5 z-10">
-  <a href="https://wa.me/9074429360">
-    <img
-      src="image/whatsapplogo.png"
-      alt="whatsapplogo"
-      className="w-[30px] h-[30px] sm:w-[35px] sm:h-[35px] md:w-[40px] md:h-[40px] lg:w-[45px] lg:h-[45px] xl:w-[50px] xl:h-[50px] -mt-14"
-    />
-  </a>
-</div>
-
-<div className="text-center lg:text-left flex flex-col justify-center lg:w-[1100px] pl-4 lg:pl-28">
-  <h1
-    className="font-futuraMedium text-[36px] sm:text-[60px] md:text-[60px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap sm:whitespace-normal text-center sm:text-left bg-gradient-to-r from-custom-blue via-custom-purple to-custom-pink text-transparent bg-clip-text"
-  >
-    A Women-led{" "}
-    <span className="block sm:inline text-white sm:bg-transparent sm:text-transparent lg:text-transparent">
-      Creative Team
-    </span>
-  </h1>
-
-
-  <div className="hidden sm:grid grid-cols-1 lg:grid-cols-2 justify-start items-center">
-  <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%]">
-    <p className="whitespace-nowrap">Seamless fusion of Technology &</p>
-    <p className="whitespace-nowrap">Creativity</p>
+ <section className="px-6 sm:px-10 md:px-16 lg:pl-96 bg-black py-8 sm:py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
+  {/* WhatsApp Floating Icon */}
+  <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[60px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] -mr-5 z-10">
+    <a href="https://wa.me/9074429360">
+      <img
+        src="image/whatsapplogo.png"
+        alt="whatsapplogo"
+        className="w-[30px] h-[30px] sm:w-[35px] sm:h-[35px] md:w-[40px] md:h-[40px] lg:w-[45px] lg:h-[45px] xl:w-[50px] xl:h-[50px] -mt-14"
+      />
+    </a>
   </div>
-</div>
-  
-<br />
-<div className="font-futuraLight font-[300] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[32px] 2xl:text-[34px] leading-[28px] sm:leading-[32px] md:leading-[34px] lg:leading-[36.9px] xl:leading-[40px] 2xl:leading-[42px] text-white">
-  <p>Helming Future Tech<span class="hidden sm:inline">. . .</span></p>
-</div>
- 
+
+  <div className="text-center lg:text-left flex flex-col justify-center lg:w-[1100px] pl-6 lg:pl-16">
+    <h1
+      className="font-futuraMedium text-[36px] sm:text-[60px] md:text-[60px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap sm:whitespace-normal text-center sm:text-left bg-gradient-to-r from-custom-blue via-custom-purple to-custom-pink text-transparent bg-clip-text"
+    >
+      A Women-led{" "}
+      <span className="block sm:inline text-white sm:bg-transparent sm:text-transparent lg:text-transparent">
+        Creative Team
+      </span>
+    </h1>
+
+    <div className="hidden sm:grid grid-cols-1 lg:grid-cols-2 justify-start items-center">
+      <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%]">
+        <p className="whitespace-nowrap">Seamless fusion of Technology &</p>
+        <p className="whitespace-nowrap">Creativity</p>
+      </div>
+    </div>
+
+    <br />
+    <div className="font-futuraLight font-[300] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[32px] 2xl:text-[34px] leading-[28px] sm:leading-[32px] md:leading-[34px] lg:leading-[36.9px] xl:leading-[40px] 2xl:leading-[42px] text-white">
+      <p>Helming Future Tech<span className="hidden sm:inline">. . .</span></p>
+    </div>
+
     <div className="flex justify-center lg:hidden mt-4">
-      <img 
-        src="./image/shape.gif" 
-        alt="right side image" 
+      <img
+        src="./image/shape.gif"
+        alt="right side image"
         className="w-[200px] sm:w-[300px] md:w-[350px] max-w-full h-auto"
       />
     </div>
 
     <div
-  className="hidden sm:block h-[0.5px] w-full sm:w-[200px] md:w-[450px] lg:w-[615px] xl:w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
-  style={{
-    border: "1px solid",
-    borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-    borderImageSlice: 1,
-  }}
-></div>
+      className="hidden sm:block h-[0.5px] w-full sm:w-[200px] md:w-[450px] lg:w-[615px] xl:w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
+      style={{
+        border: "1px solid",
+        borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+        borderImageSlice: 1,
+      }}
+    ></div>
 
-<br/>
-<a href="/howitworks">
-<button className="inline-flex items-center justify-center px-4 py-2 sm:px-6 sm:py-3 w-[250px] sm:w-[219px] h-[50px] sm:h-[45.82px] rounded-full font-montserratLight text-[16px] sm:text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition mt-4 lg:mt-4">
-  <span className="flex items-center">
-    Get Started
-    <img src="./image/right-arrow.png" alt="right arrow image" className="h-[18.64px] ml-4" />
-  </span>
-</button>
+    <br />
+    <a href="/howitworks">
+      <button className="inline-flex items-center justify-center px-4 py-2 sm:px-6 sm:py-3 w-[250px] sm:w-[219px] h-[50px] sm:h-[45.82px] rounded-full font-montserratLight text-[16px] sm:text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition mt-4 lg:mt-4">
+        <span className="flex items-center">
+          Get Started
+          <img src="./image/right-arrow.png" alt="right arrow image" className="h-[18.64px] ml-4" />
+        </span>
+      </button>
+    </a>
+  </div>
 
-</a>
-</div>
-<div className="hidden lg:flex justify-center lg:justify-end">
-  <img 
-    src="./image/shape.gif" 
-    alt="right side image" 
-    className="
-      w-[150px] sm:w-[200px] md:w-[300px] lg:w-[350px] xl:w-[400px] 2xl:w-[450px] 
-      max-w-full 
-      h-auto
-    "/>
-</div>
+  <div className="hidden lg:flex justify-center lg:justify-end">
+    <img
+      src="./image/shape.gif"
+      alt="right side image"
+      className="
+        w-[150px] sm:w-[200px] md:w-[300px] lg:w-[350px] xl:w-[400px] 2xl:w-[450px]
+        max-w-full
+        h-auto
+      "
+    />
+  </div>
 </section>
+
 
 {/* Ticker Section */}
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 -mt-10">
@@ -329,7 +329,7 @@ return (<>
   />
   {/* Image for smaller screens */}
   <img
-    src="./image/pink cube.gif"
+    src="./image/cubemob.gif"
     alt="get in touch image mobile"
     className="sm:hidden w-[200px] sm:w-[200px] md:w-[250px] lg:w-[20px] h-auto"
   />
