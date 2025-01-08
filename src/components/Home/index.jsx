@@ -177,7 +177,7 @@ return (<>
   <h3 className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-[600] font-MontserratRegular text-center">
     Website &amp; Web App <span className="block">Development</span>
   </h3>
-  <p className="mt-4 text-[14px] leading-[16px] md:text-[16px] md:leading-[18px] lg:text-[18px] lg:leading-[20px] text-center font-montserratLight">
+  <p className="mt-4 text-[14px] leading-[16px] md:text-[16px] md:leading-[18px] lg:text-[18px] lg:leading-[20px] text-center font-montserratLight whitespace-nowrap">
     Top-notch Web Designs to make your<br />Brand unique
   </p>
 </div>
