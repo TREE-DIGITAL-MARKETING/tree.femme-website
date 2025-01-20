@@ -236,7 +236,7 @@ function Navbar() {
       WhatsApp
     </a>
     <a
-      href="https://www.instagram.com/tree_information_technology?igsh=bGwzamN5ZHNqb2ls"
+      href="https://www.instagram.com/tree_femme/"
       className="text-gray-500 text-[14px] font-inter mr-20"
     >
       Instagram
