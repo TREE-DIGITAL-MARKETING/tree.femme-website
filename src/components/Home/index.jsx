@@ -266,7 +266,7 @@ return (<>
 >
   <div className="flex justify-center">
     <img
-      src="./image/logoflip.gif"
+      src="./image/purple logo.gif"
       alt="Tree Logo"
       className="w-[219px] h-[152px] md:w-[250px] md:h-[175px] lg:w-[300px] lg:h-[200px] object-cover rounded-[9px]"
     />
@@ -331,7 +331,7 @@ return (<>
   />
   {/* Image for smaller screens */}
   <img
-    src="./image/cubemob.gif"
+    src="./image/pinkyy.gif"
     alt="get in touch image mobile"
     className="sm:hidden w-[200px] sm:w-[200px] md:w-[250px] lg:w-[20px] h-auto"
   />
