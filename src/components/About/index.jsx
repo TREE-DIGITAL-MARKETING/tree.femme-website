@@ -13,14 +13,18 @@ const About = () => {
  <div> 
   {/* Hero Section */}
   <section
-  className="relative flex flex-col items-center justify-center text-center py-5 sm:py-10 md:py-20 overflow-hidden w-full max-w-[1440px] mb-32">
-<div
-  className="relative z-20 flex flex-col items-center px-4 sm:px-8 bg-cover bg-center bg-blend-overlay w-full h-auto sm:h-[85vh] md:h-[90vh] -mt-8 lg:w-screen"
-  style={{
-    backgroundImage: 'url(./image/Aboutbg.png)', 
-  }}
+  className="relative w-full overflow-hidden text-center py-5 sm:py-10 md:py-20"
 >
+  {/* Background Image Container */}
+  <div
+    className="absolute inset-0 bg-cover bg-center"
+    style={{
+      backgroundImage: 'url(./image/Aboutbg.png)',
+    }}
+  ></div>
 
+  {/* Content Wrapper */}
+  <div className="relative z-10 flex flex-col items-center justify-center sm:justify-start sm:mt-[-10vh] md:mt-[15vh] px-4 sm:px-8 w-full max-w-[1440px] h-auto sm:h-[85vh] md:h-[90vh]">
     {/* WhatsApp Floating Icon */}
     <div className="fixed right-4 bottom-8 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[50px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[50px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] z-10">
       <a href="https://wa.me/9074429360">
@@ -33,11 +37,17 @@ const About = () => {
     </div>
 
     {/* Heading */}
-    <h1 className="text-[30px] sm:text-[40px] md:text-[50px] font-[700] text-white font-futuraLight mt-16 leading-[40px] sm:leading-[50px] md:leading-[60px]">
+    <h1
+      className="text-[30px] sm:text-[40px] md:text-[50px] font-[500] text-white font-futuraLight leading-[40px] sm:leading-[50px] md:leading-[63.15px] sm:mt-80S"
+      style={{
+        textUnderlinePosition: 'from-font',
+        textDecorationSkipInk: 'none',
+      }}
+    >
       Hello there!
       <br />
       <span
-        className="whitespace-nowrap bg-clip-text text-transparent font-[700] text-[24px] sm:text-[30px] md:text-[40px] font-futuraLight leading-[28px] sm:leading-[40px]"
+        className="whitespace-nowrap bg-clip-text text-transparent font-[500] text-[24px] sm:text-[30px] md:text-[40px] font-futuraLight leading-[28px] sm:leading-[40px]"
         style={{
           backgroundImage:
             'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
@@ -47,13 +57,14 @@ const About = () => {
       </span>
     </h1>
 
-    <p className="mt-4 max-w-xs sm:max-w-md md:max-w-lg text-white text-[14px] sm:text-[16px] md:text-[18px] font-[300] leading-relaxed">
+    <p className="mt-4 max-w-xs sm:max-w-md md:max-w-lg text-white text-[14px] sm:text-[16px] md:text-[18px] font-[300] leading-relaxed text-center">
       We are a women-led team of millennials and Gen Z who excel at strategic thinking.
       Give your vision, we will turn it into reality. Let the world notice your brand
       with goosebumps!
     </p>
   </div>
 </section>
+
 
 
 {/* About Section */}

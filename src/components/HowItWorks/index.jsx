@@ -64,21 +64,33 @@ const HowItWorks = () => {
     <img
       src="image/whatsapplogo.png"
       alt="whatsapplogo"
-      className="w-[30px] h-[30px] sm:w-[35px] sm:h-[35px] md:w-[40px] md:h-[40px] lg:w-[45px] lg:h-[45px] xl:w-[50px] xl:h-[50px] -mt-14"
+      className="w-[1.875rem] h-[1.875rem] sm:w-[2.188rem] sm:h-[2.188rem] md:w-[2.5rem] md:h-[2.5rem] lg:w-[2.813rem] lg:h-[2.813rem] xl:w-[3.125rem] xl:h-[3.125rem] -mt-14"
     />
   </a>
 </div>
 
       {/* Main Section */}
-      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl ml-4 md:ml-12 lg:ml-20 xl:ml-96 -mt-16">
-  <div className="w-full">
-    <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-medium leading-tight font-futuraMedium mb-2">
-      Amplify your market reach,{" "}
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-blue-700 to-pink-800">
-        let's grow digitally
-      </span>
-    </h1>
-  </div>
+      <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl ml-4 md:ml-12 lg:ml-20 xl:ml-80 -mt-16">
+      <div className="w-full">
+  <h1
+    className="
+      text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl
+      font-medium leading-tight
+      font-futuraMedium mb-2
+    "
+  >
+    Amplify your market reach,{" "}
+    <span
+      className="
+        text-transparent bg-clip-text 
+        bg-gradient-to-r from-purple-700 via-blue-700 to-pink-800
+      "
+    >
+      let's grow digitally
+    </span>
+  </h1>
+</div>
+
 
   <p className="font-futuraLight text-base sm:text-lg md:text-xl lg:text-2xl mt-4 mb-4 max-w-full lg:max-w-3xl">
     Thanks for your interest in working with us. Please complete the details below, and we'll get back to you within one business day.

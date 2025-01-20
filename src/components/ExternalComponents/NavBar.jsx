@@ -49,7 +49,7 @@ function Navbar() {
 
       {/* Desktop Menu */}
       <div
-        className={`p-[1px] w-[625px] h-[43px] rounded-[20px] mr-60 hidden lg:flex`}
+        className={"p-[1px] w-[625px] h-[43px] rounded-[20px] mr-96 hidden lg:flex"}
         style={{
           background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
         }}
@@ -148,58 +148,64 @@ function Navbar() {
   </button>
 
   {/* Menu Items */}
-  <ul className="flex flex-col items-center space-y-8 mt-16 font-inter font-[700] text-[18px] leading-[27px] text-white">
-    <li>
-      <a
-         href="/"
-         className={`group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 font-inter text-[18px] font-[700] leading-[27px] ${
-           window.location.pathname === '/' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
-         }`} >
-        Home
-      </a>
-    </li>
-    <li>
-      <a
-        href="/about"
-        className={`font-inter text-[18px] font-[700] leading-[27px]  group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
-          window.location.pathname === '/about' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
-        }`} >
-        About
-      </a>
-    </li>
-    <li>
-      <a
-        href="/howitworks"
-        className={`font-inter text-[18px] font-[700] leading-[27px]  group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
-          window.location.pathname === '/howitworks' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
-        }`}>
-        How It Works
-      </a>
-    </li>
-    <li>
-      <a
-         href="/#service"
-         className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
-           window.location.pathname === '/service' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
-         }`}  >
-      <button onClick={() => setMenuOpen(false)}>
-        Services
-      </button>
+  <ul className="flex flex-col items-center space-y-8 mt-16 font-inter font-[700] text-[18px] leading-[27px] text-white sm:flex-row sm:space-y-0 sm:space-x-8 sm:mt-8">
+  <li>
+    <a
+      href="/"
+      className={`group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 font-inter text-[18px] font-[700] leading-[27px] ${
+        window.location.pathname === '/'
+          ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400'
+          : 'text-white'
+      }`}>
+      Home
+    </a>
+  </li>
+  <li>
+    <a
+      href="/about"
+      className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
+        window.location.pathname === '/about'
+          ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400'
+          : 'text-white'
+      }`}>
+      About
+    </a>
+  </li>
+  <li>
+    <a
+      href="/howitworks"
+      className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
+        window.location.pathname === '/howitworks'
+          ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400'
+          : 'text-white'
+      }`}>
+      How It Works
+    </a>
+  </li>
+  <li>
+    <a
+      href="/#service"
+      className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
+        window.location.pathname === '/service'
+          ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400'
+          : 'text-white'
+      }`}>
+      <button onClick={() => setMenuOpen(false)}>Services</button>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/#getintouch"
+      className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
+        window.location.pathname === '/contact'
+          ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400'
+          : 'text-white'
+      }`}>
+      <button onClick={() => setMenuOpen(false)}>Contact</button>
+    </a>
+  </li>
+</ul>
 
-      </a>
-    </li>
-    <li>
-      <a
-        href="/#getintouch"
-        className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
-          window.location.pathname === '/contact' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
-        }`} >
-           <button onClick={() => setMenuOpen(false)}>
-        Contact
-        </button>
-      </a>
-    </li>
-  </ul>
 
   {/* Button */}
   <a href="/howitworks">
