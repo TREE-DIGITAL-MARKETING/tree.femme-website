@@ -60,24 +60,10 @@ const Home = () => {
     }
   }, []);
 return (<>
-  <Helmet>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>tree.femme</title>
-        {/* Google Tag Manager Script */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-6480P1K4WT"
-        ></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-6480P1K4WT');
-          `}
-        </script>
-      </Helmet>
+  <meta charSet="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tree.femme</title>
+
  {/* Hero Section */}
  <section className="px-6 sm:px-10 md:px-16 lg:pl-96 bg-black py-8 sm:py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
   {/* WhatsApp Floating Icon */}
