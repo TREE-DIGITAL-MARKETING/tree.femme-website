@@ -5,11 +5,22 @@ const About = () => {
   return (
     <>
     <Helmet>
-    <meta charSet="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-site-verification" content="OYDP6yGpHq8aVPQSTZuKzFCenb5_QevXVCBUH_xTb3I" />
-    <title>About Us</title>
-    </Helmet>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google-site-verification" content="OYDP6yGpHq8aVPQSTZuKzFCenb5_QevXVCBUH_xTb3I" />
+        <title>About Us</title>
+
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6480P1K4WT"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6480P1K4WT');
+          `}
+        </script>
+      </Helmet>
  <div> 
   {/* Hero Section */}
   <section
