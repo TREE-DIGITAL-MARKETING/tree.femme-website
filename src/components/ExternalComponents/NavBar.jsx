@@ -36,7 +36,7 @@ function Navbar() {
         <img
           src={'./image/treelogonew3.png'}
           alt="Company Logo"
-          className="w-auto h-16 object-contain sm:ml-5" 
+          className="w-auto h-24 object-contain sm:ml-5" 
         />
       </div>
 

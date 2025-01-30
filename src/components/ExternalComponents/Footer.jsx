@@ -8,7 +8,7 @@ function Footer() {
         <img
           src="./image/treelogonew3.png"
           alt="Logo"
-          className="w-[115px] h-[115px] -mt-4 hidden sm:block "
+          className="w-[7.188rem] h-[7.188rem] -mt-4 hidden sm:block "
         />
       </div>
 
@@ -50,10 +50,10 @@ function Footer() {
         borderImageSlice: 1,
       }}
     >
-      <p className="text-[15px] md:text-[19.41px] font-montserratLight font-[400] leading-[23.67px] mt-4 md:mt-0">
+      <p className="text-[0.938rem] md:text-[1.213rem] font-montserratLight font-[400] leading-[1.479rem] mt-4 md:mt-0">
         © tree.femme 2024 , All rights reserved.
       </p>
-      <a href="#" className="text-[15px] md:text-[19.41px] font-montserratLight font-[400] leading-[23.67px] mt-2 md:mt-0">
+      <a href="#" className="text-[0.938rem] md:text-[1.213rem] font-montserratLight font-[400] leading-[1.479rem] mt-2 md:mt-0">
         Terms of Use & Privacy Policy
       </a>
     </div>

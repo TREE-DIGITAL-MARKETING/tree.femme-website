@@ -59,7 +59,7 @@ const HowItWorks = () => {
     <div className="relative bg-black text-white px-4 lg:px-16 py-10 ">
       
       {/* WhatsApp Floating Icon */}
-      <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[60px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] -mr-5 z-10">
+      <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[3.75rem] sm:w-[3.75rem] md:w-[4.375rem] lg:w-[5rem] xl:w-[5.625rem] h-[3.75rem] sm:h-[3.75rem] md:h-[4.375rem] lg:h-[5rem] xl:h-[5.625rem] -mr-5 z-10">
   <a href="https://wa.me/9074429360">
     <img
       src="image/whatsapplogo.png"
@@ -180,14 +180,14 @@ const HowItWorks = () => {
   <img
     src="./image/round.gif"
     alt="last session img"
-    className="w-full sm:w-4/5 md:w-2/3 lg:w-2/3 xl:w-2/3 mx-auto"
+    className="w-full sm:w-3 md:w-2/3 lg:w-2/3 xl:w-2/3 mx-auto"
   />
   {/* Overlay Text */}
   <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:px-6">
-    <h1 className="text-[22px] md:text-[36px] lg:text-[40px] font-[700] leading-tight md:leading-[48px] lg:leading-[52.16px] font-futuraBold">
+    <h1 className="text-[1.375rem] md:text-[2.25rem] lg:text-[2.5rem] font-[700] leading-tight md:leading-[3rem] lg:leading-[3.26rem] font-futuraBold">
       DISCUSS A PROJECT
     </h1>
-    <p className="font-futuraLightFont text-[14px] md:text-[20px] lg:text-[26px] leading-snug md:leading-[30px] lg:leading-[33.62px] mt-4">
+    <p className="font-futuraLightFont text-[0.875rem] md:text-[1.25rem] lg:text-[1.625rem] leading-snug md:leading-[1.875rem] lg:leading-[2.101rem] mt-4">
       We know how to mold your project
       <br />
       Let's put the words into action
@@ -198,12 +198,13 @@ const HowItWorks = () => {
     {/* Button Section */}
     <div className="flex justify-center lg:justify-end">
       <a href="/howitworks">
-        <button className="py-3 px-5 w-[200px] sm:w-[200px] md:w-[220px] lg:w-[290px] h-[40px] sm:h-[45px] md:h-[50px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[12px] sm:text-[12px] md:text-[18px] lg:text-[20px] font-bold leading-[14px] sm:leading-[16px] md:leading-[20px] lg:leading-[24px] mt-4 sm:mt-6 md:mt-8 text-center">
+        <button className="py-3 px-5 w-[12.5rem] sm:w-[12.5rem] md:w-[13.75rem] lg:w-[18.125rem] h-[2.5rem] sm:h-[2.813rem] md:h-[3.125rem] lg:h-[4.063] rounded-xl border-[0.188rem] border-[#622bba] text-white font-futuraBold text-[0.75rem] sm:text-[0.75rem] md:text-[1.125rem] lg:text-[1.25rem] font-bold leading-[0.875rem] sm:leading-[1rem] md:leading-[1.25rem] lg:leading-[1.5rem] mt-4 sm:mt-6 md:mt-8 text-center">
           GET CONSULTATION
         </button>
       </a>
     </div>
   </div>
+
 </div>
 </div>
     
