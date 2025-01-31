@@ -1,14 +1,14 @@
 
 function Footer() {
   return (
-<footer className="bg-black text-white py-6 -mt-3 ">
+<footer className="bg-black text-white py-10 -mt-3 ">
   <div className="container mx-auto px-4">
     <div className="flex flex-col items-center space-y-6 md:flex-row md:space-y-0 md:justify-between">
       <div className="flex justify-center md:justify-start">
         <img
           src="./image/treelogonew3.png"
           alt="Logo"
-          className="w-[7.188rem] h-[7.188rem] -mt-4 hidden sm:block "
+          className="w-[5.938rem] h-[7.188rem] -mt-4 hidden sm:block "
         />
       </div>
 

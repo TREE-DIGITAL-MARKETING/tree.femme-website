@@ -49,7 +49,7 @@ function Navbar() {
 
       {/* Desktop Menu */}
       <div
-        className={"p-[1px] w-[625px] h-[43px] rounded-[20px] mr-96 hidden lg:flex"}
+        className={"p-[1px] w-[625px] h-[43px] rounded-[20px] mr-16 hidden lg:flex"}
         style={{
           background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
         }}
