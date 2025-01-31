@@ -334,7 +334,7 @@ return (<>
 </section>
 
 {/*.......Get in Touch.........*/}
-<section id="getintouch" className="flex items-center justify-center min-h-screen sm:h-96 bg-black mt-10 px-3 ">
+<section id="getintouch" className="flex items-center justify-center min-h-screen sm:h-96 bg-black mt-10 px-3 md:-mt-48">
 <div
   className="flex flex-col md:flex-row items-center justify-center text-white text-center p-4 rounded-2xl shadow-lg w-full max-w-[90%] sm:max-w-[80%] md:max-w-[62.5rem] h-auto bg-custom-gradient"
 > 
@@ -388,7 +388,7 @@ return (<>
 
 <br/>
 {/* Our Creatives */}
-<section className="bg-black text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-20 xl:px-24 -mt-3">
+<section className="bg-black text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-20 xl:px-24 -mt-3 md:-mt-48">
   {/* Line Break */}
   <div className="h-[0.313rem] w-[3.688rem] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto -mt-14"
     style={{
