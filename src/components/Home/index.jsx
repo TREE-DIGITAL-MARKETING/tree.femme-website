@@ -341,7 +341,7 @@ return (<>
     <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
      {/* Image for larger screens */}
   <img
-    src="./image/pink cube.gif"
+    src="./image/circlecube.gif"
     alt="get in touch image"
     className="hidden sm:block w-[7.5rem] sm:w-[8.75rem] md:w-[10rem] lg:w-[11.25rem] h-auto"
   />
