@@ -81,7 +81,7 @@ return (<>
       </Helmet>
 
  {/* Hero Section */}
- <section className="px-6 sm:px-10 md:px-16 lg:pl-96 bg-black py-8 sm:py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
+ <section className="px-6 sm:px-10 md:px-16 lg:pl-40 bg-black py-8 sm:py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
   {/* WhatsApp Floating Icon */}
   <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[3.75rem] sm:w-[3.75rem] md:w-[4.375rem] lg:w-[5rem] xl:w-[5.625rem] h-[5.625rem] sm:h-[3.75rem] md:h-[4.375rem] lg:h-[5rem] xl:h-[5.625rem] -mr-5 z-10">
     <a href="https://wa.me/9074429360">
@@ -94,9 +94,9 @@ return (<>
   </div>
 
   {/* Text Content */}
-  <div className="text-center lg:text-left flex flex-col justify-center items-center sm:items-center lg:items-start mx-auto lg:mx-0">
+  <div className="text-center lg:text-left flex flex-col justify-center items-center sm:items-center lg:items-start mx-auto lg:mx-20 xl:-mx-72 2xl:mx-6">
     <h1
-      className="font-futuraMedium text-[2.25rem] sm:text-[3rem] md:text-[3.25rem] lg:text-[3.25rem] xl:text-[3.75rem] font-[500] leading-tight lg:leading-[4.099rem] mb-4 bg-gradient-to-r from-custom-blue via-custom-purple to-custom-pink text-transparent bg-clip-text whitespace-nowrap"
+      className="font-futuraMedium text-[2.25rem] sm:text-[3rem] md:text-[3.25rem] lg:text-[3.25rem] xl:text-[3.75rem] xxl:text-[4rem] font-[500] leading-tight lg:leading-[4.099rem] sm:leading-[3.5rem] md:leading-[3.75rem] xl:leading-[4.235rem] xxl:leading-[4.534rem] mb-4 bg-gradient-to-r from-custom-blue via-custom-purple to-custom-pink text-transparent bg-clip-text whitespace-nowrap"
     >
       A Women-led{" "}
       <span className="block sm:inline text-white sm:bg-transparent sm:text-transparent lg:text-transparent whitespace-nowrap">
@@ -105,7 +105,7 @@ return (<>
     </h1>
 
     <div className="hidden sm:grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:justify-start">
-      <div className="font-futuraMedium text-[1.375rem] sm:text-[1.75rem] md:text-[2.125rem] lg:text-[2.5rem] font-[400] leading-tight lg:leading-[3.158rem] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%] whitespace-nowrap">
+      <div className="font-futuraMedium text-[1.375rem] sm:text-[1.75rem] md:text-[2.125rem] lg:text-[2.5rem] xl:text-[2.75rem] xxl:text-[3rem] font-[400] leading-tight lg:leading-[3.158rem] text-white sm:w-[70%] md:w-[75%] lg:w-[80%] xl:w-[85%] 2xl:w-[90%] whitespace-nowrap">
         <p>Seamless fusion of Technology &</p>
         <p>Creativity</p>
       </div>
@@ -119,12 +119,12 @@ return (<>
       <img
         src="./image/shape.gif"
         alt="right side image"
-        className="w-[12.5rem] sm:w-[18.75rem] md:w-[21.875rem] max-w-full h-auto"
+        className="w-[12.5rem] sm:w-[18.75rem] md:w-[21.875rem] lg:w-[24.678rem] xl:w-[29.765rem] xxl:w-[32.56rem] max-w-full h-auto"
       />
     </div>
 
     <div
-      className="hidden sm:block h-[0.031rem] w-full sm:w-[12.5rem] md:w-[28.125rem] lg:w-[38.438rem] xl:w-[38.438rem] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
+      className="hidden sm:block h-[0.031rem] w-full sm:w-[12.5rem] md:w-[28.125rem] lg:w-[38.438rem] xl:w-[38.438rem] xxl:w-[40.345rem] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
       style={{
         border: "0.063rem solid",
         borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
@@ -133,7 +133,7 @@ return (<>
     ></div>
 
     <a href="/howitworks">
-      <button className="inline-flex items-center justify-center px-4 py-2 sm:px-6 sm:py-3 w-[15.625rem] sm:w-[13.688rem] h-[3.125rem] sm:h-[2.864rem] rounded-full font-montserratLight text-[1rem] sm:text-[1.188rem] font-[400] leading-[1.448rem] bg-black border border-purple-500 text-white transition mt-4 lg:mt-4">
+      <button className="inline-flex items-center justify-center px-4 py-2 sm:px-6 sm:py-3  lg:px-4 lg:py-2 md:px-6 md:py-3 xl:px-4 xl:py-2 xxl:px-4 xxl:px-2 w-[15.625rem] sm:w-[13.688rem] h-[3.125rem] sm:h-[2.864rem] rounded-full font-montserratLight text-[1rem] sm:text-[1.188rem] font-[400] leading-[1.448rem] bg-black border border-purple-500 text-white transition mt-4 lg:mt-4">
         <span className="flex items-center">
           Get Started
           <img src="./image/right-arrow.png" alt="right arrow image" className="h-[1.165rem] ml-4" />
@@ -159,18 +159,18 @@ return (<>
 
 
 {/* Ticker Section */}
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 -mt-10">
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xxl:grid-cols-5 gap-4 -mt-10">
   <div className="flex items-center justify-center col-span-full">
     <img
       src=".\image\ticketsection.gif" 
       alt="Animated GIF description"
-      className="w-full h-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-full "
+      className="w-full h-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-full xxl:max-w-full"
     />
   </div>
 </div>
 
 {/* Services Section */}
-<section id="service" className="py-12 px-6 sm:px-12 lg:px-20 text-center -mt-10">
+<section id="service" className="py-12 px-6 sm:px-12 lg:px-20 md:px-28 xl:px-32 xxl:px-32 text-center -mt-10">
   <div
     className="h-[.313rem] w-[3.688rem] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
     style={{
@@ -179,7 +179,7 @@ return (<>
       borderImageSlice: 1,
     }}
   ></div>
-  <h2 className="font-[700] text-white font-futuraBold text-[2.25rem] sm:text-[2.5rem] lg:text-[3.5rem] leading-[2.625rem] sm:leading-[3.313rem] lg:leading-[4.564rem] ">
+  <h2 className="font-[700] text-white font-futuraBold text-[2.25rem] sm:text-[2.5rem] lg:text-[3.5rem] md:text-[4.5rem] xl:text-[5.5rem] xxl:text-[6.5 rem] leading-[2.625rem] sm:leading-[3.313rem] lg:leading-[4.564rem] ">
     Services
   </h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8 px-4 lg:px-8">

@@ -35,20 +35,20 @@ const About = () => {
   ></div>
 
   {/* Content Wrapper */}
-  <div className="relative z-10 flex flex-col items-center justify-center sm:justify-start sm:mt-[-10vh] px-48 sm:px-8 lg:px-40 xl:px-96 w-full max-w-[90rem] h-auto sm:h-[85vh] md:h-screen md:items-center md:text-center md:pr-0.5 lg:pr-3 xl:pr-5">
+  <div className="relative z-10 flex flex-col items-center justify-center sm:justify-start sm:mt-[-10vh] px-48 sm:px-8 lg:px-40 xl:px-96 w-full max-w-[90rem] h-auto sm:h-[85vh] md:h-screen md:items-center md:text-center md:pr-0.5 lg:pr-3 xl:pr-5 xxl:pr-5">
     {/* WhatsApp Floating Icon */}
-    <div className="fixed right-4 bottom-8 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[3.125rem] sm:w-[3.75rem] md:w-[4.375rem] lg:w-[5rem] xl:w-[5.625rem] h-[3.125rem] sm:h-[3.75rem] md:h-[4.375rem] lg:h-[5rem] xl:h-[5.625rem] z-10">
+    <div className="fixed right-4 bottom-8 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12  xxl:bottom-14 w-[3.125rem] sm:w-[3.75rem] md:w-[4.375rem] lg:w-[5rem] xl:w-[5.625rem]  xxl:w-[5.896rem] h-[3.125rem] sm:h-[3.75rem] md:h-[4.375rem] lg:h-[5rem] xl:h-[5.625rem] xxl:h-[6rem] z-10">
       <a href="https://wa.me/9074429360">
         <img
           src="image/whatsapplogo.png"
           alt="whatsapplogo"
-          className="w-[1.875rem] h-[1.875rem] sm:w-[2.188rem] sm:h-[2.188rem] md:w-[2.5rem] md:h-[2.5rem] lg:w-[2.813rem] lg:h-[2.813rem] xl:w-[3.125rem] xl:h-[3.125rem]"
+          className="w-[1.875rem] h-[1.875rem] sm:w-[2.188rem] sm:h-[2.188rem] md:w-[2.5rem] md:h-[2.5rem] lg:w-[2.813rem] lg:h-[2.813rem] xl:w-[3.125rem] xl:h-[3.125rem] xxl:w-[3.534rem] xxl:h-[3.565rem]"
         />
       </a>
     </div>
 
     {/* Heading and Paragraph Container */}
-    <div className="mt-auto  lg:mt-[-2rem] xl:mt-[-4rem] 2xl:mt-[-6rem] md:mt-0 md:flex md:flex-col md:items-center md:justify-center lg:h-[100vh]">
+    <div className="mt-auto sm:mt-[2rem] lg:mt-[-2rem] xl:mt-[-4rem] 2xl:mt-[-6rem] md:mt-0 md:flex md:flex-col md:items-center md:justify-center sm:h-[60vh] md:h-[80vh] lg:h-[100vh] xl:h-[120vh] xxl:h-[140vh] ml:auto xl:-ml-72 2xl:-ml-14">
   <h1
     className="text-[1.875rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] xl:text-[4rem] 2xl:text-[4.5rem] font-[500] text-white font-futuraLight leading-[2.5rem] sm:leading-[3.125rem] md:leading-[3.947rem]"
     style={{
@@ -59,7 +59,7 @@ const About = () => {
     Hello there!
     <br />
     <span
-      className="whitespace-nowrap bg-clip-text text-transparent font-[500] text-[1.5rem] sm:text-[1.875rem] md:text-[2rem] lg:text-[2.25rem] xl:text-[2.5rem] 2xl:text-[3rem] font-futuraLight leading-[1.75rem] sm:leading-[2.5rem] md:leading-[2.75rem]"
+      className="whitespace-nowrap bg-clip-text text-transparent font-[500] text-[1.5rem] sm:text-[1.875rem] md:text-[2rem] lg:text-[2.25rem] xl:text-[2.5rem] 2xl:text-[3rem] font-futuraLight leading-[1.75rem] sm:leading-[2.5rem] md:leading-[2.75rem] lg:leading-[3rem] xl:leading-[3.5rem] xxl:leading-[3.75rem]"
       style={{
         backgroundImage:
           'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
@@ -68,7 +68,7 @@ const About = () => {
       Leading digitally, for a better future
     </span>
   </h1>
-  <p className="mt-4 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl text-white text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.375rem] xl:text-[1.5rem] 2xl:text-[1.75rem] font-[300] leading-relaxed text-center">
+  <p className="mt-4 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl xxl:max-w-2xl text-white text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.375rem] xl:text-[1.5rem] 2xl:text-[1.75rem] font-[300] leading-relaxed text-center">
     We are a women-led team of millennials and Gen Z who excel at strategic thinking.
     Give your vision, we will turn it into reality. Let the world notice your brand
     with goosebumps!
@@ -120,7 +120,7 @@ const About = () => {
     </div>
   </div>
 </section>
-
+       
 
 {/* Last Section */}
 {/* Last Section */}
@@ -150,7 +150,7 @@ const About = () => {
     {/* Button Section */}
     <div className="flex justify-center lg:justify-end">
       <a href="/howitworks">
-        <button className="py-3 px-5 w-[12.5rem] sm:w-[12.5rem] md:w-[13.75rem] lg:w-[18.125rem] h-[2.5rem] sm:h-[2.813rem] md:h-[3.125rem] lg:h-[4.063] rounded-xl border-[0.188rem] border-[#622bba] text-white font-futuraBold text-[0.75rem] sm:text-[0.75rem] md:text-[1.125rem] lg:text-[1.25rem] font-bold leading-[0.875rem] sm:leading-[1rem] md:leading-[1.25rem] lg:leading-[1.5rem] mt-4 sm:mt-6 md:mt-8 text-center">
+        <button className="py-3 px-5 w-[12.5rem] sm:w-[12.5rem] md:w-[13.75rem] lg:w-[18.125rem] h-[3.5rem] sm:h-[2.813rem] md:h-[3.125rem] lg:h-[4.063] rounded-xl border-[0.188rem] border-[#622bba] text-white font-futuraBold text-[0.75rem] sm:text-[0.75rem] md:text-[1.125rem] lg:text-[1.25rem] font-bold leading-[0.875rem] sm:leading-[1rem] md:leading-[1.25rem] lg:leading-[1.5rem] mt-4 sm:mt-6 md:mt-8 text-center">
           GET CONSULTATION
         </button>
       </a>
