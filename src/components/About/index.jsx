@@ -83,7 +83,7 @@ const About = () => {
 
 
 {/* About Section */}
-<section className="px-4 sm:px-8 md:px-12 lg:pl-36 py-8 sm:py-12 flex justify-center mt-12 sm:mt-12 z-10">
+<section className="px-4 sm:px-8 md:px-8 lg:pl-36 py-8 sm:py-12 flex justify-center mt-12 sm:mt-12 z-10">
   <div
     className="relative py-6 px-6 border-2 rounded-xl max-w-[55.25rem] w-full mx-auto"
     style={{
@@ -91,35 +91,38 @@ const About = () => {
       borderImageSlice: 1,
     }}
   >
-    <div className="flex flex-col md:flex-row items-center md:items-start">
-      <div className="relative lg:absolute lg:-ml-36 top-4 md:top-12 md:left-8 mb-4 md:mb-0">
+    <div className="flex flex-col md:flex-col lg:flex-row items-center md:items-center lg:items-start text-center md:text-center lg:text-left">
+      <div className="relative top-4 md:top-4 md:left-0 lg:absolute lg:-ml-40 lg:top-8 mb-4 md:mb-4 lg:mb-0">
         <img
           src="./image/aboutimage.png"
           alt="Team"
-          className="w-[15.625rem] -mt-3 sm:w-[18.75rem] h-[13.75rem] sm:h-[16.563rem] rounded-tl-[0.625rem] rounded-tr-[0rem] rounded-br-[0rem] rounded-bl-[0rem]"
+          className="w-[15.625rem] sm:w-[18.75rem] md:w-[18.75rem] lg:w-[20.625rem] 
+          h-[15.75rem] sm:h-[16.563rem] md:h-[16.563rem] lg:h-[17.75rem] 
+          rounded-tl-[0.625rem] rounded-tr-[0rem] rounded-br-[0rem] rounded-bl-[0rem]"
         />
       </div>
-      <div className="flex-1 mt-4 md:mt-0 md:ml-52 text-center md:text-left">
-        <h2 className="sm:whitespace-nowrap font-futuraMedium font-[500] text-[2.5rem] sm:text-[1.25rem] md:text-[1.875rem] lg:text-[2.5rem] leading-[3.158rem] sm:leading-[3.158rem] md:leading-[3.158rem]  lg:leading-[3.158rem] mb-2 sm:mb-3 md:mb-4">
+      <div className="flex-1 mt-4 md:mt-4 lg:mt-0 md:ml-0 lg:ml-52">
+        <h2 className="sm:whitespace-nowrap font-futuraMedium font-[500] text-[2.5rem] sm:text-[1.25rem] md:text-[1.25rem] lg:text-[2.5rem] leading-[3.158rem] sm:leading-[3.158rem] md:leading-[3.158rem] lg:leading-[3.158rem] mb-2 sm:mb-3 md:mb-3 lg:mb-4">
           Achieve success with{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5200FF] to-[#00F0FF]">
             grit & grace
           </span>
         </h2>
-        <p className="text-white font-futuraLight text-[1rem] sm:text-[1.125rem] md:text-[1.5rem] lg:text-[1.5rem] font-[300] leading-[1.75rem] sm:leading-[1.75rem] md:leading-[1.909rem] lg:leading-[1.909rem] mb-2 sm:mb-3 md:mb-4">
+        <p className="text-white font-futuraLight text-[1rem] sm:text-[1.125rem] md:text-[1.125rem] lg:text-[1.5rem] font-[300] leading-[1.75rem] sm:leading-[1.75rem] md:leading-[1.75rem] lg:leading-[1.909rem] mb-2 sm:mb-3 md:mb-3 lg:mb-4">
           We have a knack for understanding your audience as we excel at
           strategic thinking. Our team crafts innovative strategies through our
           data-driven approach. Let’s connect with the audience on a deeper
           level and engage with them authentically for long.
         </p>
         <br />
-        <p className="font-futuraMedium text-[1.625rem] sm:text-[1.625rem] md:text-[1.625rem] lg:text-[1.625rem] leading-[2.053rem] sm:leading-[1.75rem] md:leading-[2.053rem] lg:leading-[2.053rem] font-[500]">
+        <p className="font-futuraMedium text-[1.625rem] sm:text-[1.625rem] md:text-[1.625rem] lg:text-[1.625rem] leading-[2.053rem] sm:leading-[1.75rem] md:leading-[1.75rem] lg:leading-[2.053rem] font-[500]">
           Craft creatives that align with your goals.
         </p>
       </div>
     </div>
   </div>
 </section>
+
        
 
 {/* Last Section */}
@@ -150,7 +153,7 @@ const About = () => {
     {/* Button Section */}
     <div className="flex justify-center lg:justify-end">
       <a href="/howitworks">
-        <button className="py-3 px-5 md:py-5 w-[12.5rem] sm:w-[12.5rem] md:w-[15.75rem] lg:w-[18.125rem] h-[3.5rem] sm:h-[2.813rem] md:h-[3.125rem] lg:h-[4.063] rounded-xl border-[0.188rem] border-[#622bba] text-white font-futuraBold text-[0.75rem] sm:text-[0.75rem] md:text-[0.765rem] lg:text-[1.25rem] font-bold leading-[0.875rem] sm:leading-[1rem] md:leading-[1.25rem] lg:leading-[1.5rem] mt-4 sm:mt-6 md:mt-8 text-center">
+        <button className="py-3 px-5 md:scroll-py-5 w-[12.5rem] sm:w-[12.5rem] md:w-[15.75rem] lg:w-[18.125rem] h-[3.5rem] sm:h-[2.813rem] md:h-[3.125rem] lg:h-[4.063] rounded-xl border-[0.188rem] border-[#622bba] text-white font-futuraBold text-[0.75rem] sm:text-[0.75rem] md:text-[0.765rem] lg:text-[1.25rem] font-bold leading-[0.875rem] sm:leading-[1rem] md:leading-[1.25rem] lg:leading-[1.5rem] mt-4 sm:mt-6 md:mt-8 text-center">
           GET CONSULTATION
         </button>
       </a>
