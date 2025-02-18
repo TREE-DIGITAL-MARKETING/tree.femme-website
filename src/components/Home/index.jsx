@@ -171,6 +171,7 @@ return (<>
 
 {/* Services Section */}
 <section id="service" className="py-12 px-6 sm:px-12 lg:px-20 md:px-28 xl:px-32 xxl:px-32 text-center -mt-10">
+  
   <div
     className="h-[.313rem] w-[3.688rem] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
     style={{
@@ -179,10 +180,11 @@ return (<>
       borderImageSlice: 1,
     }}
   ></div>
+  <br/>
   <h2 className="font-[700] text-white font-futuraBold text-[2.25rem] sm:text-[2.5rem] lg:text-[3.5rem] md:text-[4.5rem] xl:text-[5.5rem] xxl:text-[6.5 rem] leading-[2.625rem] sm:leading-[3.313rem] lg:leading-[4.564rem] md:leading-[3.567rem]">
     Services
   </h2>
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8 px-4 lg:px-8">
+  <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6 mt-8 px-4 lg:px-8">
     {/* Card 1 */}
     <div
   className="w-full max-w-[18.75rem] md:max-w-[21.875rem] lg:max-w-[25rem] h-[12.5rem] md:h-[15.625rem] lg:h-[18.75rem] mx-auto p-4 text-white rounded-[0.563rem] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
