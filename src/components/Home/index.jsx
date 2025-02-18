@@ -143,7 +143,7 @@ return (<>
   </div>
 
   {/* Right-Side Image */}
-  <div className="hidden lg:flex justify-center lg:justify-end 2xl:mr-24">
+  <div className="hidden lg:flex justify-center lg:justify-end 2xl:mr-5">
     <img
       src="./image/shape.gif"
       alt="right side image"
@@ -178,7 +178,7 @@ return (<>
       borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
       borderImageSlice: 1,
     }}
-  ></div>`  `
+  ></div>
   <h2 className="font-[700] text-white font-futuraBold text-[2.25rem] sm:text-[2.5rem] lg:text-[3.5rem] md:text-[4.5rem] xl:text-[5.5rem] xxl:text-[6.5 rem] leading-[2.625rem] sm:leading-[3.313rem] lg:leading-[4.564rem] md:leading-[3.567rem]">
     Services
   </h2>
@@ -533,7 +533,7 @@ return (<>
   />
   {/* Overlay Text */}
   <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:px-6">
-    <h1 className="text-[1.375rem] md:text-[2.25rem] lg:text-[2.5rem] font-[700] leading-tight md:leading-[3rem] lg:leading-[3.26rem] font-futuraBold">
+    <h1 className="text-[1.375rem] md:text-[2.25rem] lg:text-[1.25rem] 2xl:text-[1.75rem] font-[700] leading-tight md:leading-[3rem] lg:leading-[3.26rem] font-futuraBold">
       DISCUSS A PROJECT
     </h1>
     <p className="font-futuraLightFont text-[0.875rem] md:text-[1.25rem] lg:text-[1.625rem] leading-snug md:leading-[1.875rem] lg:leading-[2.101rem] mt-4">
