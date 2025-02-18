@@ -211,7 +211,7 @@ const HowItWorks = () => {
     {/* Button Section */}
     <div className="flex justify-center lg:justify-end">
       <a href="/howitworks">
-        <button className="py-3 px-5 w-[12.5rem] sm:w-[12.5rem] md:w-[13.75rem] lg:w-[18.125rem] h-[2.5rem] sm:h-[2.813rem] md:h-[3.125rem] lg:h-[4.063] rounded-xl border-[0.188rem] border-[#622bba] text-white font-futuraBold text-[0.75rem] sm:text-[0.75rem] md:text-[1.125rem] lg:text-[1.25rem] font-bold leading-[0.875rem] sm:leading-[1rem] md:leading-[1.25rem] lg:leading-[1.5rem] mt-4 sm:mt-6 md:mt-8 text-center">
+        <button className="py-3 px-5 md:scroll-py-5 w-[12.5rem] sm:w-[12.5rem] md:w-[15.75rem] lg:w-[18.125rem] h-[3.5rem] sm:h-[2.813rem] md:h-[3.125rem] lg:h-[4.063] rounded-xl border-[0.188rem] border-[#622bba] text-white font-futuraBold text-[0.75rem] sm:text-[0.75rem] md:text-[0.765rem] lg:text-[1.25rem] font-bold leading-[0.875rem] sm:leading-[1rem] md:leading-[1.25rem] lg:leading-[1.5rem] mt-4 sm:mt-6 md:mt-8 text-center">
           GET CONSULTATION
         </button>
       </a>
