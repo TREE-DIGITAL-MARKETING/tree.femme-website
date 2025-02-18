@@ -94,7 +94,7 @@ return (<>
   </div>
 
   {/* Text Content */}
-  <div className="text-center lg:text-left flex flex-col justify-center items-center sm:items-center lg:items-start mx-auto lg:mx-20 xl:-mx-72 2xl:mx-6">
+  <div className="text-center lg:text-left flex flex-col justify-center items-center sm:items-center lg:items-start mx-auto lg:mx-20 xl:-mx-28 2xl:mx-6">
     <h1
       className="font-futuraMedium text-[2.25rem] sm:text-[3rem] md:text-[3.25rem] lg:text-[3.25rem] xl:text-[3.75rem] xxl:text-[4rem] font-[500] leading-tight lg:leading-[4.099rem] sm:leading-[3.5rem] md:leading-[3.75rem] xl:leading-[4.235rem] xxl:leading-[4.534rem] mb-4 bg-gradient-to-r from-custom-blue via-custom-purple to-custom-pink text-transparent bg-clip-text whitespace-nowrap"
     >
@@ -143,12 +143,12 @@ return (<>
   </div>
 
   {/* Right-Side Image */}
-  <div className="hidden lg:flex justify-center lg:justify-end">
+  <div className="hidden lg:flex justify-center lg:justify-end 2xl:mr-24">
     <img
       src="./image/shape.gif"
       alt="right side image"
       className="
-        w-[9.375rem] sm:w-[12.5rem] md:w-[18.75rem] lg:w-[21.875rem] xl:w-[25rem] 2xl:w-[28.125rem]
+        w-[9.375rem] sm:w-[12.5rem] md:w-[18.75rem] lg:w-[21.875rem] xl:w-[19rem] 2xl:w-[28.125rem]
         max-w-full
         h-auto
       "
@@ -178,8 +178,8 @@ return (<>
       borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
       borderImageSlice: 1,
     }}
-  ></div>
-  <h2 className="font-[700] text-white font-futuraBold text-[2.25rem] sm:text-[2.5rem] lg:text-[3.5rem] md:text-[4.5rem] xl:text-[5.5rem] xxl:text-[6.5 rem] leading-[2.625rem] sm:leading-[3.313rem] lg:leading-[4.564rem] ">
+  ></div>`  `
+  <h2 className="font-[700] text-white font-futuraBold text-[2.25rem] sm:text-[2.5rem] lg:text-[3.5rem] md:text-[4.5rem] xl:text-[5.5rem] xxl:text-[6.5 rem] leading-[2.625rem] sm:leading-[3.313rem] lg:leading-[4.564rem] md:leading-[3.567rem]">
     Services
   </h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8 px-4 lg:px-8">
@@ -215,7 +215,7 @@ return (<>
   <h3 className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.375rem] font-[600] font-MontserratRegular text-center whitespace-nowrap">
     Digital Marketing &amp; Marketing <span className="block">Research Service</span>
   </h3>
-  <p className="mt-4 text-[0.875rem] leading-[1rem] md:text-[1rem] md:leading-[0.875rem] lg:text-[0.875rem] lg:leading-[1.375rem] text-center font-montserratLight">
+  <p className="mt-4 text-[0.875rem] leading-[1rem] md:text-[1rem] md:leading-[1.125rem] lg:text-[1.125rem] lg:leading-[1.25rem] text-center font-montserratLight">
     Strengthen Customer Relationship
   </p>
 </div>
@@ -235,7 +235,7 @@ return (<>
   <h3 className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.375rem] font-[600] font-MontserratRegular text-center whitespace-nowrap">
     Creative Graphic <span className="block">Designing</span>
   </h3>
-  <p className="mt-4 text-[0.875rem] leading-[1rem] md:text-[1rem] md:leading-[1.125rem] lg:text-[1.125rem] lg:leading-[1.375rem] text-center font-montserratLight">
+  <p className="mt-4 text-[0.875rem] leading-[1rem] md:text-[1rem] md:leading-[1.125rem] lg:text-[1.125rem] lg:leading-[1.25rem] text-center font-montserratLight">
     Showcase your Brand's personality
   </p>
 </div>
@@ -254,7 +254,7 @@ return (<>
   <h3 className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.375rem] font-[600] font-MontserratRegular text-center whitespace-nowrap">
     Motion Graphics &amp; Video <span className="block"> Ads </span>
   </h3>
-  <p className="mt-4 text-[0.875rem] leading-[1rem] md:text-[1rem] md:leading-[1.125rem] lg:text-[1.125rem] lg:leading-[1.375rem] text-center font-montserratLight">
+  <p className="mt-4 text-[0.875rem] leading-[1rem] md:text-[1rem] md:leading-[1.125rem] lg:text-[1.125rem] lg:leading-[1.125rem] text-center font-montserratLight">
     Grab attention instantly</p>
 </div>
 
@@ -341,7 +341,7 @@ return (<>
     <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
      {/* Image for larger screens */}
   <img
-    src="./image/circlecube.gif"
+    src="./image/pink cube.gif"
     alt="get in touch image"
     className="hidden sm:block w-[7.5rem] sm:w-[8.75rem] md:w-[10rem] lg:w-[11.25rem] h-auto"
   />
